@@ -626,6 +626,25 @@
     return (last || "").replace(/\s+(JR|SR|II|III|IV|V)\.?$/i, "").trim();
   }
 
+  // A one-letter "first name" is almost always a misplaced middle initial
+  // -- a strong signal the wrong LAST-FIRST/FIRST-LAST convention was
+  // applied to *this* segment specifically. This matters most for two
+  // co-owners with different surnames listed in a single deed field: each
+  // person may be written in their own natural order independent of the
+  // lead's overall (pattern-derived) convention -- e.g. "ROME EMMA L AND
+  // MARK A LEWIS" has segment 1 in LAST-FIRST order but segment 2 in
+  // FIRST-LAST order. Retry with the opposite convention and prefer
+  // whichever gives a plausible (multi-letter) first name.
+  function bestGuessSplit(segment, ownerType, convention) {
+    const primary = splitOwnerName(segment, ownerType, convention);
+    if (primary.first.length === 1) {
+      const opposite = convention === "last_first" ? "first_last" : "last_first";
+      const retry = splitOwnerName(segment, ownerType, opposite);
+      if (retry.first.length > 1) return retry;
+    }
+    return primary;
+  }
+
   // Second owner's segment can be as little as a bare first name ("...&
   // JULIE"), a full independent name sharing the first owner's surname
   // ("...& JENNINGS BENNER" -- no, different surname, see below), or a
@@ -633,7 +652,7 @@
   // position ("KEATON MATA" when owner A is "MATA JOSEPH"). Only fall back
   // to parsing segB as a fully independent name when neither end matches.
   function splitJoinedOwners(segA, segB, ownerType, convention) {
-    const ownerA = splitOwnerName(segA, ownerType, convention);
+    const ownerA = bestGuessSplit(segA, ownerType, convention);
     const segBTokens = segB.split(/\s+/).filter(Boolean);
     if (segBTokens.length === 0) return [ownerA];
 
@@ -657,7 +676,7 @@
       ];
     }
     // No shared surname detected -- treat segB as its own independent owner.
-    return [ownerA, splitOwnerName(segB, ownerType, convention)];
+    return [ownerA, bestGuessSplit(segB, ownerType, convention)];
   }
 
   function splitCoOwners(fullName, ownerType, convention) {
@@ -700,7 +719,7 @@
       }
     }
 
-    return [splitOwnerName(raw, ownerType, convention)];
+    return [bestGuessSplit(raw, ownerType, convention)];
   }
 
   function hasStructuredAddress(r) {
@@ -918,6 +937,7 @@
     exportNamesOnlyCsv,
     splitOwnerName,
     splitCoOwners,
+    bestGuessSplit,
     ownerNameConvention,
   };
 

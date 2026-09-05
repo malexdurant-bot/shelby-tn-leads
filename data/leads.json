@@ -1,30 +1,30 @@
 {
   "attribute_counts": {
-    "absentee": 123,
-    "entity_owned": 30,
+    "absentee": 106,
+    "entity_owned": 32,
     "out_of_state": 19
   },
   "build_label": "PARTIAL_BUILD",
   "county": "Shelby County",
   "deal_path_distribution": {
-    "messy_title": 2,
-    "sub_to": 11,
-    "wholesale": 291
+    "messy_title": 1,
+    "sub_to": 12,
+    "wholesale": 265
   },
   "enrichment_breakdown": {
-    "ENRICHED": 201,
-    "UNENRICHED": 105
+    "ENRICHED": 183,
+    "UNENRICHED": 98
   },
-  "generated_at": "2026-09-04T15:01:18Z",
-  "lead_total": 306,
+  "generated_at": "2026-09-05T14:59:27Z",
+  "lead_total": 281,
   "mode": "production",
   "pattern_counts": {
-    "estate": 28,
-    "eviction": 5,
-    "foreclosure": 40,
-    "lien": 101,
-    "tax": 117,
-    "title_issue": 2
+    "estate": 30,
+    "eviction": 7,
+    "foreclosure": 37,
+    "lien": 87,
+    "tax": 106,
+    "title_issue": 1
   },
   "records": [
     {
@@ -670,68 +670,6 @@
       "stack_depth": 1
     },
     {
-      "display_address": "1527 BRITTON, MEMPHIS, TN",
-      "display_address_city": "MEMPHIS",
-      "display_address_state": "TN",
-      "display_address_street": "1527 BRITTON",
-      "display_address_zip": "38108",
-      "display_assessed_value": null,
-      "display_attributes": [
-        "absentee",
-        "entity_owned"
-      ],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "CLASS A DRIVENG ACADEMY LEWIS MELVIN",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "tax"
-      ],
-      "display_patterns": [
-        "tax"
-      ],
-      "display_score": 60,
-      "display_tier": "Workable",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_041008  00012",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": "041008  00012",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073565"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 55,
-          "factor": "base_FEDERAL_TAX_LIEN"
-        },
-        {
-          "delta": 5,
-          "factor": "attribute_bonus"
-        }
-      ],
-      "scored_lead_id": "scored_974e9634669eba6d",
-      "stack_contrib_patterns": [
-        "tax"
-      ],
-      "stack_depth": 1
-    },
-    {
       "display_address": "1051 SEYMOUR ST, MEMPHIS, TN",
       "display_address_city": "MEMPHIS",
       "display_address_state": "TN",
@@ -1082,56 +1020,6 @@
       "stack_depth": 1
     },
     {
-      "display_address": "584 S GREER ST, MEMPHIS, TN",
-      "display_address_city": "MEMPHIS",
-      "display_address_state": "TN",
-      "display_address_street": "584 S GREER ST",
-      "display_address_zip": "38111",
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "BURGETT ROBERT & TERI",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "display_score": 0,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_045107  00029",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": "045107  00029",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073284"
-      ],
-      "review_flags": [],
-      "score_reasons": [],
-      "scored_lead_id": "scored_8b5e73b55e79f7ff",
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "stack_depth": 1
-    },
-    {
       "display_address": "729 SHOTWELL ST, MEMPHIS, TN",
       "display_address_city": "MEMPHIS",
       "display_address_state": "TN",
@@ -1351,6 +1239,67 @@
       "stack_depth": 0
     },
     {
+      "display_address": "811 KIPPLEY ST, MEMPHIS, TN",
+      "display_address_city": "MEMPHIS",
+      "display_address_state": "TN",
+      "display_address_street": "811 KIPPLEY ST",
+      "display_address_zip": "38112",
+      "display_assessed_value": null,
+      "display_attributes": [
+        "absentee"
+      ],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "JONES, WILLIE",
+      "display_owner_type": "INDIVIDUAL",
+      "display_pattern_set": [
+        "eviction"
+      ],
+      "display_patterns": [
+        "eviction"
+      ],
+      "display_score": 23,
+      "display_tier": "Archive",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "enrichment_status": "ENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_parcel_052082  00072",
+      "primary_event_date": "04-SEP-2026",
+      "primary_parcel_id": "052082  00072",
+      "primary_source_urls": [
+        "https://gscivildata.shelbycountytn.gov/pls/gnweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=2408315&begin_date=&end_date="
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        {
+          "delta": 20,
+          "factor": "base_EVICTION_FILING"
+        },
+        {
+          "delta": 3,
+          "factor": "attribute_bonus"
+        }
+      ],
+      "scored_lead_id": "scored_bab0678bd636cfe4",
+      "stack_contrib_patterns": [
+        "eviction"
+      ],
+      "stack_depth": 1
+    },
+    {
       "display_address": "1438 SALEM ST, MEMPHIS, TN",
       "display_address_city": "MEMPHIS",
       "display_address_state": "TN",
@@ -1447,6 +1396,71 @@
       "scored_lead_id": "scored_193a1e6c482e667c",
       "stack_contrib_patterns": [
         "tax"
+      ],
+      "stack_depth": 1
+    },
+    {
+      "contact_info": {
+        "confirmed_address": null,
+        "confirmed_parcel_id": null,
+        "executor_name": "ROBLES, SUSAN R.",
+        "executor_phone": null,
+        "tps_decedent_addresses": [],
+        "tps_enriched": false
+      },
+      "display_address": "4597 LAWRENCE RD, MEMPHIS, TN",
+      "display_address_city": "MEMPHIS",
+      "display_address_state": "TN",
+      "display_address_street": "4597 LAWRENCE RD",
+      "display_address_zip": "38122",
+      "display_assessed_value": null,
+      "display_attributes": [],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "GILL, CONNIE E.",
+      "display_owner_type": "INDIVIDUAL",
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_patterns": [
+        "estate"
+      ],
+      "display_score": 55,
+      "display_tier": "Workable",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "enrichment_status": "ENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_parcel_053123  00031",
+      "primary_event_date": "03-SEP-2026",
+      "primary_parcel_id": "053123  00031",
+      "primary_source_urls": [
+        "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR036712&begin_date=&end_date="
+      ],
+      "review_flags": [
+        "skiptrace_unconfirmed"
+      ],
+      "score_reasons": [
+        {
+          "delta": 55,
+          "factor": "base_LETTERS_TESTAMENTARY"
+        }
+      ],
+      "scored_lead_id": "scored_8da6c60529ade0dd",
+      "stack_contrib_patterns": [
+        "estate"
       ],
       "stack_depth": 1
     },
@@ -1623,67 +1637,6 @@
       "stack_depth": 1
     },
     {
-      "display_address": "4843 FLEETVIEW AVE, MEMPHIS, TN",
-      "display_address_city": "MEMPHIS",
-      "display_address_state": "TN",
-      "display_address_street": "4843 FLEETVIEW AVE",
-      "display_address_zip": "38117",
-      "display_assessed_value": null,
-      "display_attributes": [
-        "absentee"
-      ],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "THOMPSON CORRIE THOMPSON RAYMOND",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "lien"
-      ],
-      "display_patterns": [
-        "lien"
-      ],
-      "display_score": 33,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_056001  00086",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": "056001  00086",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073464"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 30,
-          "factor": "base_JUDGMENT_LIEN"
-        },
-        {
-          "delta": 3,
-          "factor": "attribute_bonus"
-        }
-      ],
-      "scored_lead_id": "scored_27511b2de94c1bee",
-      "stack_contrib_patterns": [
-        "lien"
-      ],
-      "stack_depth": 1
-    },
-    {
       "display_address": "365 CARAWAY CV, MEMPHIS, TN",
       "display_address_city": "MEMPHIS",
       "display_address_state": "TN",
@@ -1840,56 +1793,6 @@
       "scored_lead_id": "scored_35e72d2dc17d6486",
       "stack_contrib_patterns": [
         "tax"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "1329 SEMMES ST, MEMPHIS, TN",
-      "display_address_city": "MEMPHIS",
-      "display_address_state": "TN",
-      "display_address_street": "1329 SEMMES ST",
-      "display_address_zip": "38114",
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "KEMPLE FELICIA",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "display_score": 0,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_059015  00028",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": "059015  00028",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073689"
-      ],
-      "review_flags": [],
-      "score_reasons": [],
-      "scored_lead_id": "scored_df986a2676c72129",
-      "stack_contrib_patterns": [
-        "foreclosure"
       ],
       "stack_depth": 1
     },
@@ -2192,6 +2095,67 @@
       "stack_depth": 1
     },
     {
+      "display_address": "4910 SUMMER AVE, MEMPHIS, TN",
+      "display_address_city": "MEMPHIS",
+      "display_address_state": "TN",
+      "display_address_street": "4910 SUMMER AVE",
+      "display_address_zip": "38122",
+      "display_assessed_value": null,
+      "display_attributes": [
+        "entity_owned"
+      ],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "M AND L VENTURES LLC",
+      "display_owner_type": "ENTITY",
+      "display_pattern_set": [
+        "tax"
+      ],
+      "display_patterns": [
+        "tax"
+      ],
+      "display_score": 47,
+      "display_tier": "Low",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "enrichment_status": "ENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_parcel_063059 A00005",
+      "primary_event_date": "09/03/2026",
+      "primary_parcel_id": "063059 A00005",
+      "primary_source_urls": [
+        "https://search.register.shelby.tn.us/search/content.php?inst_num=26076669"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        {
+          "delta": 45,
+          "factor": "base_STATE_TAX_LIEN"
+        },
+        {
+          "delta": 2,
+          "factor": "attribute_bonus"
+        }
+      ],
+      "scored_lead_id": "scored_4f41ad9b30652079",
+      "stack_contrib_patterns": [
+        "tax"
+      ],
+      "stack_depth": 1
+    },
+    {
       "display_address": "4779 EAGLE CREST DR, MEMPHIS, TN",
       "display_address_city": "MEMPHIS",
       "display_address_state": "TN",
@@ -2243,56 +2207,6 @@
       "scored_lead_id": "scored_52a2c08cad3cce7c",
       "stack_contrib_patterns": [
         "lien"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "1255 MARCIA RD, MEMPHIS, TN",
-      "display_address_city": "MEMPHIS",
-      "display_address_state": "TN",
-      "display_address_street": "1255 MARCIA RD",
-      "display_address_zip": "38117",
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "MATA JOSEPH AND KEATON MATA",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "display_score": 0,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_065022  00017",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": "065022  00017",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073636"
-      ],
-      "review_flags": [],
-      "score_reasons": [],
-      "scored_lead_id": "scored_c386c6f84751ab26",
-      "stack_contrib_patterns": [
-        "foreclosure"
       ],
       "stack_depth": 1
     },
@@ -2572,61 +2486,6 @@
       "stack_depth": 1
     },
     {
-      "display_address": "194 ISLAND BLUFF DR, MEMPHIS, TN",
-      "display_address_city": "MEMPHIS",
-      "display_address_state": "TN",
-      "display_address_street": "194 ISLAND BLUFF DR",
-      "display_address_zip": "38103",
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "ISLAND POINT PD HOMEOWNERS ASSOCIATION INC",
-      "display_owner_type": "ENTITY",
-      "display_pattern_set": [
-        "lien"
-      ],
-      "display_patterns": [
-        "lien"
-      ],
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_069077 J00069",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": "069077 J00069",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073706"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 30,
-          "factor": "base_JUDGMENT_LIEN"
-        }
-      ],
-      "scored_lead_id": "scored_5ab157fb44306304",
-      "stack_contrib_patterns": [
-        "lien"
-      ],
-      "stack_depth": 1
-    },
-    {
       "display_address": "1120 HALCOMB LN, MEMPHIS, TN",
       "display_address_city": "MEMPHIS",
       "display_address_state": "TN",
@@ -2715,52 +2574,6 @@
       "stack_depth": 0
     },
     {
-      "display_address": "3506 KENSETT DR, MEMPHIS, TN",
-      "display_address_city": "MEMPHIS",
-      "display_address_state": "TN",
-      "display_address_street": "3506 KENSETT DR",
-      "display_address_zip": "38127",
-      "display_assessed_value": null,
-      "display_attributes": [
-        "absentee",
-        "out_of_state"
-      ],
-      "display_deal_path_details": [],
-      "display_deal_paths": [],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "REVIEW_REQUIRED",
-      "display_match_confidence": 0,
-      "display_owner": "GS MORTGAGE- BACKED SECURITIES TRUST",
-      "display_owner_type": "TRUST",
-      "display_pattern_set": [],
-      "display_patterns": [],
-      "display_score": 5,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_072001  00076",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": "072001  00076",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073639"
-      ],
-      "review_flags": [
-        "no_pattern_fired"
-      ],
-      "score_reasons": [
-        {
-          "delta": 5,
-          "factor": "attribute_bonus"
-        }
-      ],
-      "scored_lead_id": "scored_281d5da72eaa6454",
-      "stack_contrib_patterns": [],
-      "stack_depth": 0
-    },
-    {
       "display_address": "3276 BEECHMONT ST, MEMPHIS, TN",
       "display_address_city": "MEMPHIS",
       "display_address_state": "TN",
@@ -2807,6 +2620,67 @@
       "scored_lead_id": "scored_688bbf1a012169c2",
       "stack_contrib_patterns": [
         "foreclosure"
+      ],
+      "stack_depth": 1
+    },
+    {
+      "display_address": "2113 ADDERLEY LN, MEMPHIS, TN",
+      "display_address_city": "MEMPHIS",
+      "display_address_state": "TN",
+      "display_address_street": "2113 ADDERLEY LN",
+      "display_address_zip": "38127",
+      "display_assessed_value": null,
+      "display_attributes": [
+        "absentee"
+      ],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "COGBILL JESSICA COGBILL TIMOTHY",
+      "display_owner_type": "INDIVIDUAL",
+      "display_pattern_set": [
+        "tax"
+      ],
+      "display_patterns": [
+        "tax"
+      ],
+      "display_score": 58,
+      "display_tier": "Workable",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "enrichment_status": "ENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_parcel_072047 C00022",
+      "primary_event_date": "09/04/2026",
+      "primary_parcel_id": "072047 C00022",
+      "primary_source_urls": [
+        "https://search.register.shelby.tn.us/search/content.php?inst_num=26077086"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        {
+          "delta": 55,
+          "factor": "base_FEDERAL_TAX_LIEN"
+        },
+        {
+          "delta": 3,
+          "factor": "attribute_bonus"
+        }
+      ],
+      "scored_lead_id": "scored_19e0527db82cef4b",
+      "stack_contrib_patterns": [
+        "tax"
       ],
       "stack_depth": 1
     },
@@ -2862,6 +2736,61 @@
       "scored_lead_id": "scored_41524f14651c813f",
       "stack_contrib_patterns": [
         "lien"
+      ],
+      "stack_depth": 1
+    },
+    {
+      "display_address": "3675 N TREZEVANT ST, MEMPHIS, TN",
+      "display_address_city": "MEMPHIS",
+      "display_address_state": "TN",
+      "display_address_street": "3675 N TREZEVANT ST",
+      "display_address_zip": "38127",
+      "display_assessed_value": null,
+      "display_attributes": [],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "COGBILL TIMOTHY",
+      "display_owner_type": "INDIVIDUAL",
+      "display_pattern_set": [
+        "tax"
+      ],
+      "display_patterns": [
+        "tax"
+      ],
+      "display_score": 55,
+      "display_tier": "Workable",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "enrichment_status": "ENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_parcel_072100  00009",
+      "primary_event_date": "09/04/2026",
+      "primary_parcel_id": "072100  00009",
+      "primary_source_urls": [
+        "https://search.register.shelby.tn.us/search/content.php?inst_num=26077085"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        {
+          "delta": 55,
+          "factor": "base_FEDERAL_TAX_LIEN"
+        }
+      ],
+      "scored_lead_id": "scored_d88b0c5841da5adb",
+      "stack_contrib_patterns": [
+        "tax"
       ],
       "stack_depth": 1
     },
@@ -2976,6 +2905,69 @@
       "stack_depth": 1
     },
     {
+      "display_address": "4936 CHUCK AVE, MEMPHIS, TN",
+      "display_address_city": "MEMPHIS",
+      "display_address_state": "TN",
+      "display_address_street": "4936 CHUCK AVE",
+      "display_address_zip": "38118",
+      "display_assessed_value": null,
+      "display_attributes": [
+        "absentee",
+        "entity_owned",
+        "out_of_state"
+      ],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "TROWBRIDGE REALTY CORPORATION DBA MARKETPLACE HOMES",
+      "display_owner_type": "ENTITY",
+      "display_pattern_set": [
+        "eviction"
+      ],
+      "display_patterns": [
+        "eviction"
+      ],
+      "display_score": 27,
+      "display_tier": "Archive",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "enrichment_status": "ENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_parcel_074037 A00060",
+      "primary_event_date": "04-SEP-2026",
+      "primary_parcel_id": "074037 A00060",
+      "primary_source_urls": [
+        "https://gscivildata.shelbycountytn.gov/pls/gnweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=2408251&begin_date=&end_date="
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        {
+          "delta": 20,
+          "factor": "base_EVICTION_FILING"
+        },
+        {
+          "delta": 7,
+          "factor": "attribute_bonus"
+        }
+      ],
+      "scored_lead_id": "scored_190754014525a97d",
+      "stack_contrib_patterns": [
+        "eviction"
+      ],
+      "stack_depth": 1
+    },
+    {
       "display_address": "3542 CASTLEMAN ST, MEMPHIS, TN",
       "display_address_city": "MEMPHIS",
       "display_address_state": "TN",
@@ -3020,6 +3012,119 @@
       "review_flags": [],
       "score_reasons": [],
       "scored_lead_id": "scored_5c95ed6bb0554038",
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "stack_depth": 1
+    },
+    {
+      "display_address": "5069 GINGER CL, MEMPHIS, TN",
+      "display_address_city": "MEMPHIS",
+      "display_address_state": "TN",
+      "display_address_street": "5069 GINGER CL",
+      "display_address_zip": "38118",
+      "display_assessed_value": null,
+      "display_attributes": [
+        "absentee"
+      ],
+      "display_deal_path_details": [
+        {
+          "confidence": "high",
+          "path": "sub_to",
+          "rationale": "Foreclosure paired with bankruptcy stay or absentee owner; subject-to acquisition pattern fits."
+        },
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "sub_to",
+        "wholesale"
+      ],
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "BROWNLEE TEQUILLA",
+      "display_owner_type": "INDIVIDUAL",
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "display_score": 3,
+      "display_tier": "Archive",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "enrichment_status": "ENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_parcel_074060  00029",
+      "primary_event_date": "09/04/2026",
+      "primary_parcel_id": "074060  00029",
+      "primary_source_urls": [
+        "https://search.register.shelby.tn.us/search/content.php?inst_num=26077135"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        {
+          "delta": 3,
+          "factor": "attribute_bonus"
+        }
+      ],
+      "scored_lead_id": "scored_26c5010db6ac298d",
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "stack_depth": 1
+    },
+    {
+      "display_address": "5795 S FOXBURROW CIR, MEMPHIS, TN",
+      "display_address_city": "MEMPHIS",
+      "display_address_state": "TN",
+      "display_address_street": "5795 S FOXBURROW CIR",
+      "display_address_zip": "38115",
+      "display_assessed_value": null,
+      "display_attributes": [],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "JONES-ARNETT CHASADY",
+      "display_owner_type": "INDIVIDUAL",
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "enrichment_status": "ENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_parcel_074073  00266",
+      "primary_event_date": "09/04/2026",
+      "primary_parcel_id": "074073  00266",
+      "primary_source_urls": [
+        "https://search.register.shelby.tn.us/search/content.php?inst_num=26077107"
+      ],
+      "review_flags": [],
+      "score_reasons": [],
+      "scored_lead_id": "scored_3a47f8167eaa9aed",
       "stack_contrib_patterns": [
         "foreclosure"
       ],
@@ -3133,61 +3238,6 @@
       "scored_lead_id": "scored_2be882d627abfea1",
       "stack_contrib_patterns": [
         "lien"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "3415 DUPRE ST, MEMPHIS, TN",
-      "display_address_city": "MEMPHIS",
-      "display_address_state": "TN",
-      "display_address_street": "3415 DUPRE ST",
-      "display_address_zip": "38115",
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "WILLIAMS TANI",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "tax"
-      ],
-      "display_patterns": [
-        "tax"
-      ],
-      "display_score": 55,
-      "display_tier": "Workable",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_074104  00080",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": "074104  00080",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073549"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 55,
-          "factor": "base_FEDERAL_TAX_LIEN"
-        }
-      ],
-      "scored_lead_id": "scored_06d25a1730a43159",
-      "stack_contrib_patterns": [
-        "tax"
       ],
       "stack_depth": 1
     },
@@ -3829,6 +3879,56 @@
       "stack_depth": 1
     },
     {
+      "display_address": "6524 KESWICK CV, MEMPHIS, TN",
+      "display_address_city": "MEMPHIS",
+      "display_address_state": "TN",
+      "display_address_street": "6524 KESWICK CV",
+      "display_address_zip": "38119",
+      "display_assessed_value": null,
+      "display_attributes": [],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "THOMPSON DELJUAN M & LISA H",
+      "display_owner_type": "INDIVIDUAL",
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "enrichment_status": "ENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_parcel_081031  00034",
+      "primary_event_date": "09/04/2026",
+      "primary_parcel_id": "081031  00034",
+      "primary_source_urls": [
+        "https://search.register.shelby.tn.us/search/content.php?inst_num=26077059"
+      ],
+      "review_flags": [],
+      "score_reasons": [],
+      "scored_lead_id": "scored_1cfe4a95ade71a53",
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "stack_depth": 1
+    },
+    {
       "display_address": "3700 SEWANEE RD, MEMPHIS, TN",
       "display_address_city": "MEMPHIS",
       "display_address_state": "TN",
@@ -3878,61 +3978,6 @@
         }
       ],
       "scored_lead_id": "scored_87bbb69899846ca4",
-      "stack_contrib_patterns": [
-        "tax"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "4314 SEWANEE RD, MEMPHIS, TN",
-      "display_address_city": "MEMPHIS",
-      "display_address_state": "TN",
-      "display_address_street": "4314 SEWANEE RD",
-      "display_address_zip": "38109",
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "JONES ALLAN C JONES TIFFANY G",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "tax"
-      ],
-      "display_patterns": [
-        "tax"
-      ],
-      "display_score": 55,
-      "display_tier": "Workable",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_082014  00030",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": "082014  00030",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073556"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 55,
-          "factor": "base_FEDERAL_TAX_LIEN"
-        }
-      ],
-      "scored_lead_id": "scored_8a1efb491caf0aa3",
       "stack_contrib_patterns": [
         "tax"
       ],
@@ -4106,6 +4151,67 @@
       "scored_lead_id": "scored_1fee4f5f3c317046",
       "stack_contrib_patterns": [
         "tax"
+      ],
+      "stack_depth": 1
+    },
+    {
+      "display_address": "1288 DOVECREST RD, MEMPHIS, TN",
+      "display_address_city": "MEMPHIS",
+      "display_address_state": "TN",
+      "display_address_street": "1288 DOVECREST RD",
+      "display_address_zip": "38134",
+      "display_assessed_value": null,
+      "display_attributes": [
+        "entity_owned"
+      ],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "ViktorHall Construction",
+      "display_owner_type": "INDIVIDUAL",
+      "display_pattern_set": [
+        "lien"
+      ],
+      "display_patterns": [
+        "lien"
+      ],
+      "display_score": 32,
+      "display_tier": "Archive",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "enrichment_status": "ENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_parcel_089014  00037",
+      "primary_event_date": "09/04/2026",
+      "primary_parcel_id": "089014  00037",
+      "primary_source_urls": [
+        "https://search.register.shelby.tn.us/search/content.php?inst_num=26077167"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        {
+          "delta": 30,
+          "factor": "base_JUDGMENT_LIEN"
+        },
+        {
+          "delta": 2,
+          "factor": "attribute_bonus"
+        }
+      ],
+      "scored_lead_id": "scored_a82b8efa4cc18ad1",
+      "stack_contrib_patterns": [
+        "lien"
       ],
       "stack_depth": 1
     },
@@ -6428,67 +6534,6 @@
       "stack_depth": 1
     },
     {
-      "display_address": "8883 JOHNSTON CV, MEMPHIS, TN",
-      "display_address_city": "MEMPHIS",
-      "display_address_state": "TN",
-      "display_address_street": "8883 JOHNSTON CV",
-      "display_address_zip": "38016",
-      "display_assessed_value": null,
-      "display_attributes": [
-        "absentee"
-      ],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "HARRIS BRIAN",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "tax"
-      ],
-      "display_patterns": [
-        "tax"
-      ],
-      "display_score": 58,
-      "display_tier": "Workable",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_096511 F00067",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": "096511 F00067",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073554"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 55,
-          "factor": "base_FEDERAL_TAX_LIEN"
-        },
-        {
-          "delta": 3,
-          "factor": "attribute_bonus"
-        }
-      ],
-      "scored_lead_id": "scored_5b983b3797815537",
-      "stack_contrib_patterns": [
-        "tax"
-      ],
-      "stack_depth": 1
-    },
-    {
       "display_address": "7904 HUNTERS CROSSING DR, MEMPHIS, TN",
       "display_address_city": "MEMPHIS",
       "display_address_state": "TN",
@@ -6724,6 +6769,67 @@
       "scored_lead_id": "scored_acc7d7fd12cf50d2",
       "stack_contrib_patterns": [
         "lien"
+      ],
+      "stack_depth": 1
+    },
+    {
+      "display_address": "5177 JEFFREY KEITH DR, BARTLETT, TN",
+      "display_address_city": "BARTLETT",
+      "display_address_state": "TN",
+      "display_address_street": "5177 JEFFREY KEITH DR",
+      "display_address_zip": "38002",
+      "display_assessed_value": null,
+      "display_attributes": [
+        "absentee"
+      ],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "MORROW LEILA J",
+      "display_owner_type": "INDIVIDUAL",
+      "display_pattern_set": [
+        "tax"
+      ],
+      "display_patterns": [
+        "tax"
+      ],
+      "display_score": 58,
+      "display_tier": "Workable",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "enrichment_status": "ENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_parcel_B0138B B00002",
+      "primary_event_date": "09/04/2026",
+      "primary_parcel_id": "B0138B B00002",
+      "primary_source_urls": [
+        "https://search.register.shelby.tn.us/search/content.php?inst_num=26077087"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        {
+          "delta": 55,
+          "factor": "base_FEDERAL_TAX_LIEN"
+        },
+        {
+          "delta": 3,
+          "factor": "attribute_bonus"
+        }
+      ],
+      "scored_lead_id": "scored_5c5012399a8f84f1",
+      "stack_contrib_patterns": [
+        "tax"
       ],
       "stack_depth": 1
     },
@@ -7035,9 +7141,9 @@
       ],
       "display_deal_path_details": [
         {
-          "confidence": "moderate",
+          "confidence": "high",
           "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+          "rationale": "Multi-signal distress + investor-friendly attribute set."
         }
       ],
       "display_deal_paths": [
@@ -7053,19 +7159,21 @@
         "tax"
       ],
       "display_patterns": [
+        "tax",
         "tax"
       ],
-      "display_score": 58,
-      "display_tier": "Workable",
+      "display_score": 70,
+      "display_tier": "Strong",
       "display_title_complexity_tier": "None",
       "display_year_built": null,
       "enrichment_status": "ENRICHED",
       "evidence_ids": [],
       "lead_id": "lead_parcel_B0157W F00026",
-      "primary_event_date": "09/02/2026",
+      "primary_event_date": "09/04/2026",
       "primary_parcel_id": "B0157W F00026",
       "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26076265"
+        "https://search.register.shelby.tn.us/search/content.php?inst_num=26076265",
+        "https://search.register.shelby.tn.us/search/content.php?inst_num=26077089"
       ],
       "review_flags": [],
       "score_reasons": [
@@ -7074,15 +7182,20 @@
           "factor": "base_FEDERAL_TAX_LIEN"
         },
         {
+          "delta": 12,
+          "factor": "stack_depth_2"
+        },
+        {
           "delta": 3,
           "factor": "attribute_bonus"
         }
       ],
-      "scored_lead_id": "scored_20387e98b5a1cfae",
+      "scored_lead_id": "scored_10041416b508721e",
       "stack_contrib_patterns": [
+        "tax",
         "tax"
       ],
-      "stack_depth": 1
+      "stack_depth": 2
     },
     {
       "display_address": "9110 VAUGHN CV, BARTLETT, TN",
@@ -8166,67 +8279,6 @@
       "stack_depth": 1
     },
     {
-      "display_address": "7705 SHAMROCK, UNINCORPORATED, TN",
-      "display_address_city": "UNINCORPORATED",
-      "display_address_state": "TN",
-      "display_address_street": "7705 SHAMROCK",
-      "display_address_zip": "38053",
-      "display_assessed_value": null,
-      "display_attributes": [
-        "absentee"
-      ],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "SPURLOCK JOHN SPURLOCK VICKY",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "lien"
-      ],
-      "display_patterns": [
-        "lien"
-      ],
-      "display_score": 33,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_D0116  A00001",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": "D0116  A00001",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073342"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 30,
-          "factor": "base_JUDGMENT_LIEN"
-        },
-        {
-          "delta": 3,
-          "factor": "attribute_bonus"
-        }
-      ],
-      "scored_lead_id": "scored_0145e63026e019fb",
-      "stack_contrib_patterns": [
-        "lien"
-      ],
-      "stack_depth": 1
-    },
-    {
       "display_address": "820 ARCHIE DR, UNINCORPORATED, TN",
       "display_address_city": "UNINCORPORATED",
       "display_address_state": "TN",
@@ -8347,67 +8399,6 @@
         }
       ],
       "scored_lead_id": "scored_5b3aefd5760b3e9c",
-      "stack_contrib_patterns": [
-        "tax"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "4476 HUNTERS GLEN DRE, UNINCORPORATED, TN",
-      "display_address_city": "UNINCORPORATED",
-      "display_address_state": "TN",
-      "display_address_street": "4476 HUNTERS GLEN DRE",
-      "display_address_zip": "38128",
-      "display_assessed_value": null,
-      "display_attributes": [
-        "absentee"
-      ],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "BROWN ANTHONY",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "tax"
-      ],
-      "display_patterns": [
-        "tax"
-      ],
-      "display_score": 58,
-      "display_tier": "Workable",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_D0147  L00014",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": "D0147  L00014",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073555"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 55,
-          "factor": "base_FEDERAL_TAX_LIEN"
-        },
-        {
-          "delta": 3,
-          "factor": "attribute_bonus"
-        }
-      ],
-      "scored_lead_id": "scored_ad4701ad1db92476",
       "stack_contrib_patterns": [
         "tax"
       ],
@@ -8597,67 +8588,6 @@
       "scored_lead_id": "scored_789e9f5913fca09c",
       "stack_contrib_patterns": [
         "foreclosure"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "11506 LEIGHMICHELLE CV, UNINCORPORATED, TN",
-      "display_address_city": "UNINCORPORATED",
-      "display_address_state": "TN",
-      "display_address_street": "11506 LEIGHMICHELLE CV",
-      "display_address_zip": "38028",
-      "display_assessed_value": null,
-      "display_attributes": [
-        "absentee"
-      ],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "HUBBARD JAMES",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "tax"
-      ],
-      "display_patterns": [
-        "tax"
-      ],
-      "display_score": 58,
-      "display_tier": "Workable",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_D0210U B00002",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": "D0210U B00002",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073562"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 55,
-          "factor": "base_FEDERAL_TAX_LIEN"
-        },
-        {
-          "delta": 3,
-          "factor": "attribute_bonus"
-        }
-      ],
-      "scored_lead_id": "scored_cc0c11a1481e4733",
-      "stack_contrib_patterns": [
-        "tax"
       ],
       "stack_depth": 1
     },
@@ -9223,128 +9153,6 @@
       "stack_depth": 1
     },
     {
-      "display_address": "4192 OLD FOREST RD, UNINCORPORATED, TN",
-      "display_address_city": "UNINCORPORATED",
-      "display_address_state": "TN",
-      "display_address_street": "4192 OLD FOREST RD",
-      "display_address_zip": "38125",
-      "display_assessed_value": null,
-      "display_attributes": [
-        "absentee"
-      ],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "CAMARILLO MARIA FLORES ALEJANDRO A",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "lien"
-      ],
-      "display_patterns": [
-        "lien"
-      ],
-      "display_score": 33,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_D0241A E00053",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": "D0241A E00053",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073707"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 30,
-          "factor": "base_JUDGMENT_LIEN"
-        },
-        {
-          "delta": 3,
-          "factor": "attribute_bonus"
-        }
-      ],
-      "scored_lead_id": "scored_999da1728e56a0f8",
-      "stack_contrib_patterns": [
-        "lien"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "7533 WILSFORD CV, UNINCORPORATED, TN",
-      "display_address_city": "UNINCORPORATED",
-      "display_address_state": "TN",
-      "display_address_street": "7533 WILSFORD CV",
-      "display_address_zip": "38125",
-      "display_assessed_value": null,
-      "display_attributes": [
-        "absentee"
-      ],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "PAYNE BRYAN L PAYNE STACIE",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "lien"
-      ],
-      "display_patterns": [
-        "lien"
-      ],
-      "display_score": 33,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_D0241A E00065",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": "D0241A E00065",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073710"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 30,
-          "factor": "base_JUDGMENT_LIEN"
-        },
-        {
-          "delta": 3,
-          "factor": "attribute_bonus"
-        }
-      ],
-      "scored_lead_id": "scored_f11019a64101300c",
-      "stack_contrib_patterns": [
-        "lien"
-      ],
-      "stack_depth": 1
-    },
-    {
       "display_address": "4331 OLD FOREST RD, UNINCORPORATED, TN",
       "display_address_city": "UNINCORPORATED",
       "display_address_state": "TN",
@@ -9400,128 +9208,6 @@
         }
       ],
       "scored_lead_id": "scored_b071c08049d80c20",
-      "stack_contrib_patterns": [
-        "lien"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "4374 OLD FOREST RD, UNINCORPORATED, TN",
-      "display_address_city": "UNINCORPORATED",
-      "display_address_state": "TN",
-      "display_address_street": "4374 OLD FOREST RD",
-      "display_address_zip": "38125",
-      "display_assessed_value": null,
-      "display_attributes": [
-        "absentee"
-      ],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "MEADORS ANNE H",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "lien"
-      ],
-      "display_patterns": [
-        "lien"
-      ],
-      "display_score": 33,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_D0241A E00122",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": "D0241A E00122",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073712"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 30,
-          "factor": "base_JUDGMENT_LIEN"
-        },
-        {
-          "delta": 3,
-          "factor": "attribute_bonus"
-        }
-      ],
-      "scored_lead_id": "scored_ac38b6789bc5cdbf",
-      "stack_contrib_patterns": [
-        "lien"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "4340 LONG CREEK RD, UNINCORPORATED, TN",
-      "display_address_city": "UNINCORPORATED",
-      "display_address_state": "TN",
-      "display_address_street": "4340 LONG CREEK RD",
-      "display_address_zip": "38125",
-      "display_assessed_value": null,
-      "display_attributes": [
-        "absentee"
-      ],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "GIVENS ERIC B GIVENS COUNTESS Y",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "lien"
-      ],
-      "display_patterns": [
-        "lien"
-      ],
-      "display_score": 33,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_D0241A K00003",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": "D0241A K00003",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073700"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 30,
-          "factor": "base_JUDGMENT_LIEN"
-        },
-        {
-          "delta": 3,
-          "factor": "attribute_bonus"
-        }
-      ],
-      "scored_lead_id": "scored_94fb1602be330551",
       "stack_contrib_patterns": [
         "lien"
       ],
@@ -9652,67 +9338,6 @@
       "stack_depth": 1
     },
     {
-      "display_address": "7597 RICHMOND RD, UNINCORPORATED, TN",
-      "display_address_city": "UNINCORPORATED",
-      "display_address_state": "TN",
-      "display_address_street": "7597 RICHMOND RD",
-      "display_address_zip": "38125",
-      "display_assessed_value": null,
-      "display_attributes": [
-        "absentee"
-      ],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "HARRIS DAVID J HARRIS ELOISE R",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "lien"
-      ],
-      "display_patterns": [
-        "lien"
-      ],
-      "display_score": 33,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_D0241A K00026",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": "D0241A K00026",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073703"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 30,
-          "factor": "base_JUDGMENT_LIEN"
-        },
-        {
-          "delta": 3,
-          "factor": "attribute_bonus"
-        }
-      ],
-      "scored_lead_id": "scored_5ffba685ca6a8604",
-      "stack_contrib_patterns": [
-        "lien"
-      ],
-      "stack_depth": 1
-    },
-    {
       "display_address": "4386 WILDFLOWER LN, UNINCORPORATED, TN",
       "display_address_city": "UNINCORPORATED",
       "display_address_state": "TN",
@@ -9768,128 +9393,6 @@
         }
       ],
       "scored_lead_id": "scored_af8cfe8281bb6364",
-      "stack_contrib_patterns": [
-        "lien"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "7613 RICHWOOD PL, UNINCORPORATED, TN",
-      "display_address_city": "UNINCORPORATED",
-      "display_address_state": "TN",
-      "display_address_street": "7613 RICHWOOD PL",
-      "display_address_zip": "38125",
-      "display_assessed_value": null,
-      "display_attributes": [
-        "absentee"
-      ],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "BURKS KEOSHA N",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "lien"
-      ],
-      "display_patterns": [
-        "lien"
-      ],
-      "display_score": 33,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_D0241F A00029",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": "D0241F A00029",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073705"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 30,
-          "factor": "base_JUDGMENT_LIEN"
-        },
-        {
-          "delta": 3,
-          "factor": "attribute_bonus"
-        }
-      ],
-      "scored_lead_id": "scored_0d52315f03e8b922",
-      "stack_contrib_patterns": [
-        "lien"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "7651 RICHWOOD PL, UNINCORPORATED, TN",
-      "display_address_city": "UNINCORPORATED",
-      "display_address_state": "TN",
-      "display_address_street": "7651 RICHWOOD PL",
-      "display_address_zip": "38125",
-      "display_assessed_value": null,
-      "display_attributes": [
-        "absentee"
-      ],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "GARDNER ANTONIO HAWKINS RENEE Y",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "lien"
-      ],
-      "display_patterns": [
-        "lien"
-      ],
-      "display_score": 33,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_D0241F A00032",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": "D0241F A00032",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073702"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 30,
-          "factor": "base_JUDGMENT_LIEN"
-        },
-        {
-          "delta": 3,
-          "factor": "attribute_bonus"
-        }
-      ],
-      "scored_lead_id": "scored_9c5017451b69c1f8",
       "stack_contrib_patterns": [
         "lien"
       ],
@@ -10264,250 +9767,6 @@
       "stack_depth": 1
     },
     {
-      "display_address": "7694 RICHMOND CIRN, UNINCORPORATED, TN",
-      "display_address_city": "UNINCORPORATED",
-      "display_address_state": "TN",
-      "display_address_street": "7694 RICHMOND CIRN",
-      "display_address_zip": "38125",
-      "display_assessed_value": null,
-      "display_attributes": [
-        "absentee"
-      ],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "RICHWOOD HOMEOWNERS ASSOCIATION INC",
-      "display_owner_type": "ENTITY",
-      "display_pattern_set": [
-        "lien"
-      ],
-      "display_patterns": [
-        "lien"
-      ],
-      "display_score": 33,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_D0242E D00006",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": "D0242E D00006",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073704"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 30,
-          "factor": "base_JUDGMENT_LIEN"
-        },
-        {
-          "delta": 3,
-          "factor": "attribute_bonus"
-        }
-      ],
-      "scored_lead_id": "scored_7e5441a37bf88c3c",
-      "stack_contrib_patterns": [
-        "lien"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "7716 RICHMOND CIRN, UNINCORPORATED, TN",
-      "display_address_city": "UNINCORPORATED",
-      "display_address_state": "TN",
-      "display_address_street": "7716 RICHMOND CIRN",
-      "display_address_zip": "38125",
-      "display_assessed_value": null,
-      "display_attributes": [
-        "absentee"
-      ],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "COLE DARRICK D",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "lien"
-      ],
-      "display_patterns": [
-        "lien"
-      ],
-      "display_score": 33,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_D0242E D00009",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": "D0242E D00009",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073701"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 30,
-          "factor": "base_JUDGMENT_LIEN"
-        },
-        {
-          "delta": 3,
-          "factor": "attribute_bonus"
-        }
-      ],
-      "scored_lead_id": "scored_5c97a627b6998057",
-      "stack_contrib_patterns": [
-        "lien"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "4402 RICHMOND CIRS, UNINCORPORATED, TN",
-      "display_address_city": "UNINCORPORATED",
-      "display_address_state": "TN",
-      "display_address_street": "4402 RICHMOND CIRS",
-      "display_address_zip": "38125",
-      "display_assessed_value": null,
-      "display_attributes": [
-        "absentee"
-      ],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "ANDERSON JONATHAN T",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "lien"
-      ],
-      "display_patterns": [
-        "lien"
-      ],
-      "display_score": 33,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_D0242E D00020",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": "D0242E D00020",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073708"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 30,
-          "factor": "base_JUDGMENT_LIEN"
-        },
-        {
-          "delta": 3,
-          "factor": "attribute_bonus"
-        }
-      ],
-      "scored_lead_id": "scored_21e090295d7ddd07",
-      "stack_contrib_patterns": [
-        "lien"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "4353 RICHMOND CIRS, UNINCORPORATED, TN",
-      "display_address_city": "UNINCORPORATED",
-      "display_address_state": "TN",
-      "display_address_street": "4353 RICHMOND CIRS",
-      "display_address_zip": "38125",
-      "display_assessed_value": null,
-      "display_attributes": [
-        "absentee"
-      ],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "SMITH MARY D SMITH SAM M",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "lien"
-      ],
-      "display_patterns": [
-        "lien"
-      ],
-      "display_score": 33,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_D0242E D00036",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": "D0242E D00036",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073711"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 30,
-          "factor": "base_JUDGMENT_LIEN"
-        },
-        {
-          "delta": 3,
-          "factor": "attribute_bonus"
-        }
-      ],
-      "scored_lead_id": "scored_2d257d7d0172715c",
-      "stack_contrib_patterns": [
-        "lien"
-      ],
-      "stack_depth": 1
-    },
-    {
       "display_address": "4280 WILLOW POND CV, UNINCORPORATED, TN",
       "display_address_city": "UNINCORPORATED",
       "display_address_state": "TN",
@@ -10563,67 +9822,6 @@
         }
       ],
       "scored_lead_id": "scored_6e554b11ee98574e",
-      "stack_contrib_patterns": [
-        "lien"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "7749 S THUNDERSTONE CL, UNINCORPORATED, TN",
-      "display_address_city": "UNINCORPORATED",
-      "display_address_state": "TN",
-      "display_address_street": "7749 S THUNDERSTONE CL",
-      "display_address_zip": "38125",
-      "display_assessed_value": null,
-      "display_attributes": [
-        "absentee"
-      ],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "ELLIS TAKISHA D",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "lien"
-      ],
-      "display_patterns": [
-        "lien"
-      ],
-      "display_score": 33,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_D0242J B00013",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": "D0242J B00013",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073709"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 30,
-          "factor": "base_JUDGMENT_LIEN"
-        },
-        {
-          "delta": 3,
-          "factor": "attribute_bonus"
-        }
-      ],
-      "scored_lead_id": "scored_f7bc300a04bf8180",
       "stack_contrib_patterns": [
         "lien"
       ],
@@ -10815,67 +10013,6 @@
       "stack_depth": 1
     },
     {
-      "display_address": "5036 N LAUREL FOREST CV, UNINCORPORATED, TN",
-      "display_address_city": "UNINCORPORATED",
-      "display_address_state": "TN",
-      "display_address_street": "5036 N LAUREL FOREST CV",
-      "display_address_zip": "38125",
-      "display_assessed_value": null,
-      "display_attributes": [
-        "absentee"
-      ],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "ANDRUS MILTON",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "tax"
-      ],
-      "display_patterns": [
-        "tax"
-      ],
-      "display_score": 58,
-      "display_tier": "Workable",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_D0256N B00060",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": "D0256N B00060",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073551"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 55,
-          "factor": "base_FEDERAL_TAX_LIEN"
-        },
-        {
-          "delta": 3,
-          "factor": "attribute_bonus"
-        }
-      ],
-      "scored_lead_id": "scored_b001ebf20fcaf672",
-      "stack_contrib_patterns": [
-        "tax"
-      ],
-      "stack_depth": 1
-    },
-    {
       "display_address": "7941 PINEFROST LN, UNINCORPORATED, TN",
       "display_address_city": "UNINCORPORATED",
       "display_address_state": "TN",
@@ -10937,67 +10074,6 @@
       "stack_depth": 1
     },
     {
-      "display_address": "7680 POWER RUN LN, UNINCORPORATED, TN",
-      "display_address_city": "UNINCORPORATED",
-      "display_address_state": "TN",
-      "display_address_street": "7680 POWER RUN LN",
-      "display_address_zip": "38125",
-      "display_assessed_value": null,
-      "display_attributes": [
-        "absentee"
-      ],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "HUNTER BYRON",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "tax"
-      ],
-      "display_patterns": [
-        "tax"
-      ],
-      "display_score": 58,
-      "display_tier": "Workable",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_D0256T I00016",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": "D0256T I00016",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073566"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 55,
-          "factor": "base_FEDERAL_TAX_LIEN"
-        },
-        {
-          "delta": 3,
-          "factor": "attribute_bonus"
-        }
-      ],
-      "scored_lead_id": "scored_d184e9d7b05cea33",
-      "stack_contrib_patterns": [
-        "tax"
-      ],
-      "stack_depth": 1
-    },
-    {
       "display_address": "4603 OAKDEN LN, UNINCORPORATED, TN",
       "display_address_city": "UNINCORPORATED",
       "display_address_state": "TN",
@@ -11055,61 +10131,6 @@
       "scored_lead_id": "scored_b356a0f392ea9671",
       "stack_contrib_patterns": [
         "tax"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "7442 PYRON OAKS CV, GERMANTOWN, TN",
-      "display_address_city": "GERMANTOWN",
-      "display_address_state": "TN",
-      "display_address_street": "7442 PYRON OAKS CV",
-      "display_address_zip": "38138",
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "COCHRAN RANI W",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "lien"
-      ],
-      "display_patterns": [
-        "lien"
-      ],
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_G0219A F00002",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": "G0219A F00002",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073343"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 30,
-          "factor": "base_JUDGMENT_LIEN"
-        }
-      ],
-      "scored_lead_id": "scored_d301afa74fc12ff8",
-      "stack_contrib_patterns": [
-        "lien"
       ],
       "stack_depth": 1
     },
@@ -11226,67 +10247,6 @@
       "scored_lead_id": "scored_dd657420bc2294ea",
       "stack_contrib_patterns": [
         "tax"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "2930 BELFORT DR, GERMANTOWN, TN",
-      "display_address_city": "GERMANTOWN",
-      "display_address_state": "TN",
-      "display_address_street": "2930 BELFORT DR",
-      "display_address_zip": "38138",
-      "display_assessed_value": null,
-      "display_attributes": [
-        "absentee"
-      ],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "FREEMAN DANNY",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "lien"
-      ],
-      "display_patterns": [
-        "lien"
-      ],
-      "display_score": 33,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_G0231G B00046",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": "G0231G B00046",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073347"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 30,
-          "factor": "base_JUDGMENT_LIEN"
-        },
-        {
-          "delta": 3,
-          "factor": "attribute_bonus"
-        }
-      ],
-      "scored_lead_id": "scored_fb223227201d5aad",
-      "stack_contrib_patterns": [
-        "lien"
       ],
       "stack_depth": 1
     },
@@ -11700,930 +10660,6 @@
       "scored_lead_id": "scored_2471b05d51e1f972",
       "stack_contrib_patterns": [
         "estate"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "",
-      "display_address_city": null,
-      "display_address_state": null,
-      "display_address_street": null,
-      "display_address_zip": null,
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "VOID",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "display_score": 0,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "UNENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_unresolved_26073349",
-      "primary_event_date": null,
-      "primary_parcel_id": null,
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073349"
-      ],
-      "review_flags": [],
-      "score_reasons": [],
-      "scored_lead_id": "scored_1d6a83e46af7bd4c",
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "",
-      "display_address_city": null,
-      "display_address_state": null,
-      "display_address_street": null,
-      "display_address_zip": null,
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "FASON ENTRPRISES",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "tax"
-      ],
-      "display_patterns": [
-        "tax"
-      ],
-      "display_score": 55,
-      "display_tier": "Workable",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "UNENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_unresolved_26073546",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": null,
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073546"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 55,
-          "factor": "base_FEDERAL_TAX_LIEN"
-        }
-      ],
-      "scored_lead_id": "scored_7592bdc971f9244d",
-      "stack_contrib_patterns": [
-        "tax"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "",
-      "display_address_city": null,
-      "display_address_state": null,
-      "display_address_street": null,
-      "display_address_zip": null,
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "SMOKES S SECTION INC",
-      "display_owner_type": "ENTITY",
-      "display_pattern_set": [
-        "tax"
-      ],
-      "display_patterns": [
-        "tax"
-      ],
-      "display_score": 55,
-      "display_tier": "Workable",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "UNENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_unresolved_26073547",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": null,
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073547"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 55,
-          "factor": "base_FEDERAL_TAX_LIEN"
-        }
-      ],
-      "scored_lead_id": "scored_e9fb125e3814854a",
-      "stack_contrib_patterns": [
-        "tax"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "",
-      "display_address_city": null,
-      "display_address_state": null,
-      "display_address_street": null,
-      "display_address_zip": null,
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "CCC MACHINE WORKS INC",
-      "display_owner_type": "ENTITY",
-      "display_pattern_set": [
-        "tax"
-      ],
-      "display_patterns": [
-        "tax"
-      ],
-      "display_score": 55,
-      "display_tier": "Workable",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "UNENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_unresolved_26073548",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": null,
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073548"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 55,
-          "factor": "base_FEDERAL_TAX_LIEN"
-        }
-      ],
-      "scored_lead_id": "scored_5750c4eafedea489",
-      "stack_contrib_patterns": [
-        "tax"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "",
-      "display_address_city": null,
-      "display_address_state": null,
-      "display_address_street": null,
-      "display_address_zip": null,
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "FAYNE JOHNNY C",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "tax"
-      ],
-      "display_patterns": [
-        "tax"
-      ],
-      "display_score": 55,
-      "display_tier": "Workable",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "UNENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_unresolved_26073550",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": null,
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073550"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 55,
-          "factor": "base_FEDERAL_TAX_LIEN"
-        }
-      ],
-      "scored_lead_id": "scored_7a83d1b40b252fd2",
-      "stack_contrib_patterns": [
-        "tax"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "",
-      "display_address_city": null,
-      "display_address_state": null,
-      "display_address_street": null,
-      "display_address_zip": null,
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "BAILEY DARRELL L",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "tax"
-      ],
-      "display_patterns": [
-        "tax"
-      ],
-      "display_score": 55,
-      "display_tier": "Workable",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "UNENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_unresolved_26073552",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": null,
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073552"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 55,
-          "factor": "base_FEDERAL_TAX_LIEN"
-        }
-      ],
-      "scored_lead_id": "scored_2c4207f2e336203b",
-      "stack_contrib_patterns": [
-        "tax"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "",
-      "display_address_city": null,
-      "display_address_state": null,
-      "display_address_street": null,
-      "display_address_zip": null,
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "HARRIS CONTINA HARRIS BRIAN",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "tax"
-      ],
-      "display_patterns": [
-        "tax"
-      ],
-      "display_score": 55,
-      "display_tier": "Workable",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "UNENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_unresolved_26073553",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": null,
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073553"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 55,
-          "factor": "base_FEDERAL_TAX_LIEN"
-        }
-      ],
-      "scored_lead_id": "scored_894a516c799b2302",
-      "stack_contrib_patterns": [
-        "tax"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "",
-      "display_address_city": null,
-      "display_address_state": null,
-      "display_address_street": null,
-      "display_address_zip": null,
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "BEATTY MARK",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "tax"
-      ],
-      "display_patterns": [
-        "tax"
-      ],
-      "display_score": 55,
-      "display_tier": "Workable",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "UNENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_unresolved_26073557",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": null,
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073557"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 55,
-          "factor": "base_FEDERAL_TAX_LIEN"
-        }
-      ],
-      "scored_lead_id": "scored_110814cd38ade2bf",
-      "stack_contrib_patterns": [
-        "tax"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "",
-      "display_address_city": null,
-      "display_address_state": null,
-      "display_address_street": null,
-      "display_address_zip": null,
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "THOMPSON JILL S THOMPSON WILLIAM G",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "tax"
-      ],
-      "display_patterns": [
-        "tax"
-      ],
-      "display_score": 55,
-      "display_tier": "Workable",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "UNENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_unresolved_26073558",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": null,
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073558"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 55,
-          "factor": "base_FEDERAL_TAX_LIEN"
-        }
-      ],
-      "scored_lead_id": "scored_c1cf16887605ce89",
-      "stack_contrib_patterns": [
-        "tax"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "",
-      "display_address_city": null,
-      "display_address_state": null,
-      "display_address_street": null,
-      "display_address_zip": null,
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "YOUNG YALONDA E",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "tax"
-      ],
-      "display_patterns": [
-        "tax"
-      ],
-      "display_score": 55,
-      "display_tier": "Workable",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "UNENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_unresolved_26073559",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": null,
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073559"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 55,
-          "factor": "base_FEDERAL_TAX_LIEN"
-        }
-      ],
-      "scored_lead_id": "scored_9212a96c0d0e8d9b",
-      "stack_contrib_patterns": [
-        "tax"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "",
-      "display_address_city": null,
-      "display_address_state": null,
-      "display_address_street": null,
-      "display_address_zip": null,
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "WHITLEY SHEILA F WHITLEY WILLIAM D",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "tax"
-      ],
-      "display_patterns": [
-        "tax"
-      ],
-      "display_score": 55,
-      "display_tier": "Workable",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "UNENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_unresolved_26073560",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": null,
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073560"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 55,
-          "factor": "base_FEDERAL_TAX_LIEN"
-        }
-      ],
-      "scored_lead_id": "scored_e702ca9c2f45c425",
-      "stack_contrib_patterns": [
-        "tax"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "",
-      "display_address_city": null,
-      "display_address_state": null,
-      "display_address_street": null,
-      "display_address_zip": null,
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "MCCASTLE MICHAEL",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "tax"
-      ],
-      "display_patterns": [
-        "tax"
-      ],
-      "display_score": 55,
-      "display_tier": "Workable",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "UNENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_unresolved_26073561",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": null,
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073561"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 55,
-          "factor": "base_FEDERAL_TAX_LIEN"
-        }
-      ],
-      "scored_lead_id": "scored_0092343368b7dc3e",
-      "stack_contrib_patterns": [
-        "tax"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "",
-      "display_address_city": null,
-      "display_address_state": null,
-      "display_address_street": null,
-      "display_address_zip": null,
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "SLICE MIDTOWN LLC",
-      "display_owner_type": "ENTITY",
-      "display_pattern_set": [
-        "tax"
-      ],
-      "display_patterns": [
-        "tax"
-      ],
-      "display_score": 55,
-      "display_tier": "Workable",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "UNENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_unresolved_26073563",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": null,
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073563"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 55,
-          "factor": "base_FEDERAL_TAX_LIEN"
-        }
-      ],
-      "scored_lead_id": "scored_991525f559c476c3",
-      "stack_contrib_patterns": [
-        "tax"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "",
-      "display_address_city": null,
-      "display_address_state": null,
-      "display_address_street": null,
-      "display_address_zip": null,
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "CENTRAL FABRICATION INC",
-      "display_owner_type": "ENTITY",
-      "display_pattern_set": [
-        "tax"
-      ],
-      "display_patterns": [
-        "tax"
-      ],
-      "display_score": 55,
-      "display_tier": "Workable",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "UNENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_unresolved_26073564",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": null,
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073564"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 55,
-          "factor": "base_FEDERAL_TAX_LIEN"
-        }
-      ],
-      "scored_lead_id": "scored_9205c629affa5d4c",
-      "stack_contrib_patterns": [
-        "tax"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "58 EAST PEEBLES RD MEMPHIS, TN 38109",
-      "display_address_city": null,
-      "display_address_source": "posting",
-      "display_address_state": null,
-      "display_address_street": null,
-      "display_address_zip": null,
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "WILMINGTON SAVINGS FUND SOCIETY",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "display_score": 0,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "UNENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_unresolved_26073654",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": null,
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073654"
-      ],
-      "review_flags": [],
-      "score_reasons": [],
-      "scored_lead_id": "scored_dd7c62a63970863d",
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "",
-      "display_address_city": null,
-      "display_address_state": null,
-      "display_address_street": null,
-      "display_address_zip": null,
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "BEY MAURICE M",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "lien"
-      ],
-      "display_patterns": [
-        "lien"
-      ],
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "UNENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_unresolved_26073676",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": null,
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073676"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 30,
-          "factor": "base_JUDGMENT_LIEN"
-        }
-      ],
-      "scored_lead_id": "scored_0293ea49fa8fa78f",
-      "stack_contrib_patterns": [
-        "lien"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "",
-      "display_address_city": null,
-      "display_address_state": null,
-      "display_address_street": null,
-      "display_address_zip": null,
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "REVIEW_REQUIRED",
-      "display_match_confidence": 0,
-      "display_owner": "appointment_of_substitute_trustee against unidentified party",
-      "display_owner_type": "UNKNOWN",
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "display_score": 0,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "UNENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_unresolved_26073695",
-      "primary_event_date": "08/25/2026",
-      "primary_parcel_id": null,
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26073695"
-      ],
-      "review_flags": [
-        "parcel_resolution_review_required",
-        "matched_lead_review_reason:known_filer_pattern match: mortgage_lender:BANK NATIONAL ASSOCIATION"
-      ],
-      "score_reasons": [],
-      "scored_lead_id": "scored_4c76307ec872b004",
-      "stack_contrib_patterns": [
-        "foreclosure"
       ],
       "stack_depth": 1
     },
@@ -15355,61 +13391,6 @@
       "display_last_sale_price": null,
       "display_lead_status": "APPROVED_FOR_DASHBOARD",
       "display_match_confidence": 0,
-      "display_owner": "M AND I VENTRURES LLC",
-      "display_owner_type": "ENTITY",
-      "display_pattern_set": [
-        "tax"
-      ],
-      "display_patterns": [
-        "tax"
-      ],
-      "display_score": 45,
-      "display_tier": "Low",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "UNENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_unresolved_26076669",
-      "primary_event_date": "09/03/2026",
-      "primary_parcel_id": null,
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26076669"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 45,
-          "factor": "base_STATE_TAX_LIEN"
-        }
-      ],
-      "scored_lead_id": "scored_87dd1919b33b51c0",
-      "stack_contrib_patterns": [
-        "tax"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "",
-      "display_address_city": null,
-      "display_address_state": null,
-      "display_address_street": null,
-      "display_address_zip": null,
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
       "display_owner": "BALLARD JORDAN",
       "display_owner_type": "INDIVIDUAL",
       "display_pattern_set": [
@@ -15630,7 +13611,7 @@
       "display_last_sale_price": null,
       "display_lead_status": "APPROVED_FOR_DASHBOARD",
       "display_match_confidence": 0,
-      "display_owner": "DFEEDWELLS SERVICES",
+      "display_owner": "FEEDWELLS SERVICES",
       "display_owner_type": "ENTITY",
       "display_pattern_set": [
         "tax"
@@ -15905,7 +13886,7 @@
       "display_last_sale_price": null,
       "display_lead_status": "APPROVED_FOR_DASHBOARD",
       "display_match_confidence": 0,
-      "display_owner": "901 2 0 LLC",
+      "display_owner": "CHEF FLAVAS LLC",
       "display_owner_type": "ENTITY",
       "display_pattern_set": [
         "tax"
@@ -16233,10 +14214,380 @@
       ],
       "display_last_sale_date": null,
       "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "SIMMONS KATINA",
+      "display_owner_type": "INDIVIDUAL",
+      "display_pattern_set": [
+        "tax"
+      ],
+      "display_patterns": [
+        "tax"
+      ],
+      "display_score": 55,
+      "display_tier": "Workable",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "enrichment_status": "UNENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_unresolved_26077081",
+      "primary_event_date": "09/04/2026",
+      "primary_parcel_id": null,
+      "primary_source_urls": [
+        "https://search.register.shelby.tn.us/search/content.php?inst_num=26077081"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        {
+          "delta": 55,
+          "factor": "base_FEDERAL_TAX_LIEN"
+        }
+      ],
+      "scored_lead_id": "scored_28cced4f2d69d1e4",
+      "stack_contrib_patterns": [
+        "tax"
+      ],
+      "stack_depth": 1
+    },
+    {
+      "display_address": "",
+      "display_address_city": null,
+      "display_address_state": null,
+      "display_address_street": null,
+      "display_address_zip": null,
+      "display_assessed_value": null,
+      "display_attributes": [],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "HAYNIE ELECTRIC AND HVAC INC",
+      "display_owner_type": "ENTITY",
+      "display_pattern_set": [
+        "tax"
+      ],
+      "display_patterns": [
+        "tax"
+      ],
+      "display_score": 55,
+      "display_tier": "Workable",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "enrichment_status": "UNENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_unresolved_26077082",
+      "primary_event_date": "09/04/2026",
+      "primary_parcel_id": null,
+      "primary_source_urls": [
+        "https://search.register.shelby.tn.us/search/content.php?inst_num=26077082"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        {
+          "delta": 55,
+          "factor": "base_FEDERAL_TAX_LIEN"
+        }
+      ],
+      "scored_lead_id": "scored_ad4b4b9e9ec3ed9e",
+      "stack_contrib_patterns": [
+        "tax"
+      ],
+      "stack_depth": 1
+    },
+    {
+      "display_address": "",
+      "display_address_city": null,
+      "display_address_state": null,
+      "display_address_street": null,
+      "display_address_zip": null,
+      "display_assessed_value": null,
+      "display_attributes": [],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "ARTS IN US INC",
+      "display_owner_type": "ENTITY",
+      "display_pattern_set": [
+        "tax"
+      ],
+      "display_patterns": [
+        "tax"
+      ],
+      "display_score": 55,
+      "display_tier": "Workable",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "enrichment_status": "UNENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_unresolved_26077083",
+      "primary_event_date": "09/04/2026",
+      "primary_parcel_id": null,
+      "primary_source_urls": [
+        "https://search.register.shelby.tn.us/search/content.php?inst_num=26077083"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        {
+          "delta": 55,
+          "factor": "base_FEDERAL_TAX_LIEN"
+        }
+      ],
+      "scored_lead_id": "scored_b806d2cab983a7ed",
+      "stack_contrib_patterns": [
+        "tax"
+      ],
+      "stack_depth": 1
+    },
+    {
+      "display_address": "",
+      "display_address_city": null,
+      "display_address_state": null,
+      "display_address_street": null,
+      "display_address_zip": null,
+      "display_assessed_value": null,
+      "display_attributes": [],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "MEMPHIS PERFORMING ARTS AND CREATIVE ACADEMY LLC COX QUINTON",
+      "display_owner_type": "ENTITY",
+      "display_pattern_set": [
+        "tax"
+      ],
+      "display_patterns": [
+        "tax"
+      ],
+      "display_score": 55,
+      "display_tier": "Workable",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "enrichment_status": "UNENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_unresolved_26077084",
+      "primary_event_date": "09/04/2026",
+      "primary_parcel_id": null,
+      "primary_source_urls": [
+        "https://search.register.shelby.tn.us/search/content.php?inst_num=26077084"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        {
+          "delta": 55,
+          "factor": "base_FEDERAL_TAX_LIEN"
+        }
+      ],
+      "scored_lead_id": "scored_71b600dbef529733",
+      "stack_contrib_patterns": [
+        "tax"
+      ],
+      "stack_depth": 1
+    },
+    {
+      "display_address": "",
+      "display_address_city": null,
+      "display_address_state": null,
+      "display_address_street": null,
+      "display_address_zip": null,
+      "display_assessed_value": null,
+      "display_attributes": [],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "REAVES III HENRY E",
+      "display_owner_type": "INDIVIDUAL",
+      "display_pattern_set": [
+        "tax"
+      ],
+      "display_patterns": [
+        "tax"
+      ],
+      "display_score": 55,
+      "display_tier": "Workable",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "enrichment_status": "UNENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_unresolved_26077088",
+      "primary_event_date": "09/04/2026",
+      "primary_parcel_id": null,
+      "primary_source_urls": [
+        "https://search.register.shelby.tn.us/search/content.php?inst_num=26077088"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        {
+          "delta": 55,
+          "factor": "base_FEDERAL_TAX_LIEN"
+        }
+      ],
+      "scored_lead_id": "scored_1ff5b0b972e0f1e6",
+      "stack_contrib_patterns": [
+        "tax"
+      ],
+      "stack_depth": 1
+    },
+    {
+      "display_address": "",
+      "display_address_city": null,
+      "display_address_state": null,
+      "display_address_street": null,
+      "display_address_zip": null,
+      "display_assessed_value": null,
+      "display_attributes": [],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "KLAPHAKE PAM K",
+      "display_owner_type": "INDIVIDUAL",
+      "display_pattern_set": [
+        "tax"
+      ],
+      "display_patterns": [
+        "tax"
+      ],
+      "display_score": 55,
+      "display_tier": "Workable",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "enrichment_status": "UNENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_unresolved_26077090",
+      "primary_event_date": "09/04/2026",
+      "primary_parcel_id": null,
+      "primary_source_urls": [
+        "https://search.register.shelby.tn.us/search/content.php?inst_num=26077090"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        {
+          "delta": 55,
+          "factor": "base_FEDERAL_TAX_LIEN"
+        }
+      ],
+      "scored_lead_id": "scored_5456b5f4c63b380c",
+      "stack_contrib_patterns": [
+        "tax"
+      ],
+      "stack_depth": 1
+    },
+    {
+      "display_address": "",
+      "display_address_city": null,
+      "display_address_state": null,
+      "display_address_street": null,
+      "display_address_zip": null,
+      "display_assessed_value": null,
+      "display_attributes": [],
+      "display_deal_path_details": [],
+      "display_deal_paths": [],
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
       "display_lead_status": "REVIEW_REQUIRED",
       "display_match_confidence": 0,
-      "display_owner": "appointment_of_substitute_trustee against unidentified party",
+      "display_owner": "sub_trustees_deed against unidentified party",
       "display_owner_type": "UNKNOWN",
+      "display_pattern_set": [],
+      "display_patterns": [],
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "enrichment_status": "UNENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_unresolved_26077104",
+      "primary_event_date": "09/04/2026",
+      "primary_parcel_id": null,
+      "primary_source_urls": [
+        "https://search.register.shelby.tn.us/search/content.php?inst_num=26077104"
+      ],
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:owner_not_on_document",
+        "no_pattern_fired"
+      ],
+      "score_reasons": [],
+      "scored_lead_id": "scored_18d104b18d1f6dc8",
+      "stack_contrib_patterns": [],
+      "stack_depth": 0
+    },
+    {
+      "display_address": "",
+      "display_address_city": null,
+      "display_address_state": null,
+      "display_address_street": null,
+      "display_address_zip": null,
+      "display_assessed_value": null,
+      "display_attributes": [],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "MCNARY EVELYN O TRUIST BANK",
+      "display_owner_type": "INDIVIDUAL",
       "display_pattern_set": [
         "foreclosure"
       ],
@@ -16249,18 +14600,15 @@
       "display_year_built": null,
       "enrichment_status": "UNENRICHED",
       "evidence_ids": [],
-      "lead_id": "lead_unresolved_26077059",
+      "lead_id": "lead_unresolved_26077150",
       "primary_event_date": "09/04/2026",
       "primary_parcel_id": null,
       "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26077059"
+        "https://search.register.shelby.tn.us/search/content.php?inst_num=26077150"
       ],
-      "review_flags": [
-        "parcel_resolution_review_required",
-        "matched_lead_review_reason:owner_not_on_document"
-      ],
+      "review_flags": [],
       "score_reasons": [],
-      "scored_lead_id": "scored_23f4c0049047eea4",
+      "scored_lead_id": "scored_4c6e3dbff53a8db3",
       "stack_contrib_patterns": [
         "foreclosure"
       ],
@@ -16276,10 +14624,100 @@
       "display_attributes": [],
       "display_deal_path_details": [
         {
-          "confidence": "high",
-          "path": "messy_title",
-          "rationale": "Lien stack and/or title-action pattern; closing requires release/payoff curative work."
-        },
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "VicktorHall Construction",
+      "display_owner_type": "INDIVIDUAL",
+      "display_pattern_set": [
+        "lien"
+      ],
+      "display_patterns": [
+        "lien"
+      ],
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "enrichment_status": "UNENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_unresolved_26077168",
+      "primary_event_date": "09/04/2026",
+      "primary_parcel_id": null,
+      "primary_source_urls": [
+        "https://search.register.shelby.tn.us/search/content.php?inst_num=26077168"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        {
+          "delta": 30,
+          "factor": "base_JUDGMENT_LIEN"
+        }
+      ],
+      "scored_lead_id": "scored_5d103f52d2ab8d2c",
+      "stack_contrib_patterns": [
+        "lien"
+      ],
+      "stack_depth": 1
+    },
+    {
+      "display_address": "",
+      "display_address_city": null,
+      "display_address_state": null,
+      "display_address_street": null,
+      "display_address_zip": null,
+      "display_assessed_value": null,
+      "display_attributes": [],
+      "display_deal_path_details": [],
+      "display_deal_paths": [],
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_match_confidence": 0,
+      "display_owner": "sub_trustees_deed against unidentified party",
+      "display_owner_type": "UNKNOWN",
+      "display_pattern_set": [],
+      "display_patterns": [],
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "enrichment_status": "UNENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_unresolved_26077267",
+      "primary_event_date": "09/04/2026",
+      "primary_parcel_id": null,
+      "primary_source_urls": [
+        "https://search.register.shelby.tn.us/search/content.php?inst_num=26077267"
+      ],
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:owner_not_on_document",
+        "no_pattern_fired"
+      ],
+      "score_reasons": [],
+      "scored_lead_id": "scored_ac05d6963d326b77",
+      "stack_contrib_patterns": [],
+      "stack_depth": 0
+    },
+    {
+      "display_address": "",
+      "display_address_city": null,
+      "display_address_state": null,
+      "display_address_street": null,
+      "display_address_zip": null,
+      "display_assessed_value": null,
+      "display_attributes": [],
+      "display_deal_path_details": [
         {
           "confidence": "moderate",
           "path": "wholesale",
@@ -16287,43 +14725,103 @@
         }
       ],
       "display_deal_paths": [
-        "messy_title",
         "wholesale"
       ],
       "display_last_sale_date": null,
       "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_lead_status": "REVIEW_REQUIRED",
       "display_match_confidence": 0,
-      "display_owner": "MELVIN L TAYLOR",
-      "display_owner_type": "INDIVIDUAL",
+      "display_owner": "judgment_lien against unidentified party",
+      "display_owner_type": "UNKNOWN",
       "display_pattern_set": [
-        "title_issue"
+        "lien"
       ],
       "display_patterns": [
-        "title_issue"
+        "lien"
       ],
-      "display_score": 50,
-      "display_tier": "Workable",
+      "display_score": 30,
+      "display_tier": "Archive",
       "display_title_complexity_tier": "None",
       "display_year_built": null,
       "enrichment_status": "UNENRICHED",
       "evidence_ids": [],
-      "lead_id": "lead_unresolved_shelby_ch_CH-26-1195",
-      "primary_event_date": "25-AUG-2026",
+      "lead_id": "lead_unresolved_26077305",
+      "primary_event_date": "09/04/2026",
       "primary_parcel_id": null,
       "primary_source_urls": [
-        "https://chancerydata.shelbycountytn.gov/chweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=CH-26-1195&begin_date=&end_date="
+        "https://search.register.shelby.tn.us/search/content.php?inst_num=26077305"
       ],
-      "review_flags": [],
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:owner_not_on_document"
+      ],
       "score_reasons": [
         {
-          "delta": 50,
-          "factor": "base_QUIET_TITLE_ACTION"
+          "delta": 30,
+          "factor": "base_JUDGMENT_LIEN"
         }
       ],
-      "scored_lead_id": "scored_b0d38e0955bd4388",
+      "scored_lead_id": "scored_d416d3f833058a24",
       "stack_contrib_patterns": [
-        "title_issue"
+        "lien"
+      ],
+      "stack_depth": 1
+    },
+    {
+      "display_address": "",
+      "display_address_city": null,
+      "display_address_state": null,
+      "display_address_street": null,
+      "display_address_zip": null,
+      "display_assessed_value": null,
+      "display_attributes": [],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_match_confidence": 0,
+      "display_owner": "judgment_lien against unidentified party",
+      "display_owner_type": "UNKNOWN",
+      "display_pattern_set": [
+        "lien"
+      ],
+      "display_patterns": [
+        "lien"
+      ],
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "enrichment_status": "UNENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_unresolved_26077343",
+      "primary_event_date": "09/04/2026",
+      "primary_parcel_id": null,
+      "primary_source_urls": [
+        "https://search.register.shelby.tn.us/search/content.php?inst_num=26077343"
+      ],
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:owner_not_on_document"
+      ],
+      "score_reasons": [
+        {
+          "delta": 30,
+          "factor": "base_JUDGMENT_LIEN"
+        }
+      ],
+      "scored_lead_id": "scored_29aa82e0eae6a7b8",
+      "stack_contrib_patterns": [
+        "lien"
       ],
       "stack_depth": 1
     },
@@ -16444,138 +14942,6 @@
       "scored_lead_id": "scored_8237c56c0761b510",
       "stack_contrib_patterns": [
         "eviction"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "contact_info": {
-        "confirmed_address": null,
-        "confirmed_parcel_id": null,
-        "executor_name": "DICKINSON, JOHN WILLIS",
-        "executor_phone": null,
-        "tps_decedent_addresses": [],
-        "tps_enriched": false
-      },
-      "display_address": "",
-      "display_address_city": null,
-      "display_address_state": null,
-      "display_address_street": null,
-      "display_address_zip": null,
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "DICKINSON, EDWARD KENT",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "estate"
-      ],
-      "display_patterns": [
-        "estate"
-      ],
-      "display_score": 55,
-      "display_tier": "Workable",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "UNENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_unresolved_shelby_pr_PR036643",
-      "primary_event_date": "25-AUG-2026",
-      "primary_parcel_id": null,
-      "primary_source_urls": [
-        "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR036643&begin_date=&end_date="
-      ],
-      "review_flags": [
-        "parcel_match_low_confidence",
-        "skiptrace_unconfirmed"
-      ],
-      "score_reasons": [
-        {
-          "delta": 55,
-          "factor": "base_LETTERS_TESTAMENTARY"
-        }
-      ],
-      "scored_lead_id": "scored_c51676fdc69fcd38",
-      "stack_contrib_patterns": [
-        "estate"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "contact_info": {
-        "confirmed_address": null,
-        "confirmed_parcel_id": null,
-        "executor_name": null,
-        "executor_phone": null,
-        "tps_decedent_addresses": [],
-        "tps_enriched": false
-      },
-      "display_address": "",
-      "display_address_city": null,
-      "display_address_state": null,
-      "display_address_street": null,
-      "display_address_zip": null,
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "MILLAR, II, WILLIAM A.",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "estate"
-      ],
-      "display_patterns": [
-        "estate"
-      ],
-      "display_score": 55,
-      "display_tier": "Workable",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "enrichment_status": "UNENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_unresolved_shelby_pr_PR036645",
-      "primary_event_date": "25-AUG-2026",
-      "primary_parcel_id": null,
-      "primary_source_urls": [
-        "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR036645&begin_date=&end_date="
-      ],
-      "review_flags": [
-        "parcel_match_low_confidence",
-        "skiptrace_unconfirmed"
-      ],
-      "score_reasons": [
-        {
-          "delta": 55,
-          "factor": "base_LETTERS_TESTAMENTARY"
-        }
-      ],
-      "scored_lead_id": "scored_9e3b1364a723257d",
-      "stack_contrib_patterns": [
-        "estate"
       ],
       "stack_depth": 1
     },
@@ -17634,18 +16000,217 @@
         "estate"
       ],
       "stack_depth": 1
+    },
+    {
+      "contact_info": {
+        "confirmed_address": null,
+        "confirmed_parcel_id": null,
+        "executor_name": "WRICE, JHERICA",
+        "executor_phone": null,
+        "tps_decedent_addresses": [],
+        "tps_enriched": false
+      },
+      "display_address": "",
+      "display_address_city": null,
+      "display_address_state": null,
+      "display_address_street": null,
+      "display_address_zip": null,
+      "display_assessed_value": null,
+      "display_attributes": [],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "ELIJAH REESE",
+      "display_owner_type": "INDIVIDUAL",
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_patterns": [
+        "estate"
+      ],
+      "display_score": 55,
+      "display_tier": "Workable",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "enrichment_status": "UNENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_unresolved_shelby_pr_PR036729",
+      "primary_event_date": "04-SEP-2026",
+      "primary_parcel_id": null,
+      "primary_source_urls": [
+        "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR036729&begin_date=&end_date="
+      ],
+      "review_flags": [
+        "parcel_match_low_confidence",
+        "skiptrace_unconfirmed"
+      ],
+      "score_reasons": [
+        {
+          "delta": 55,
+          "factor": "base_LETTERS_TESTAMENTARY"
+        }
+      ],
+      "scored_lead_id": "scored_f7f3055eb820c7cf",
+      "stack_contrib_patterns": [
+        "estate"
+      ],
+      "stack_depth": 1
+    },
+    {
+      "contact_info": {
+        "confirmed_address": null,
+        "confirmed_parcel_id": null,
+        "executor_name": null,
+        "executor_phone": null,
+        "tps_decedent_addresses": [],
+        "tps_enriched": false
+      },
+      "display_address": "",
+      "display_address_city": null,
+      "display_address_state": null,
+      "display_address_street": null,
+      "display_address_zip": null,
+      "display_assessed_value": null,
+      "display_attributes": [],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "ANITA DIANE KIDD-YOUNG",
+      "display_owner_type": "INDIVIDUAL",
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_patterns": [
+        "estate"
+      ],
+      "display_score": 55,
+      "display_tier": "Workable",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "enrichment_status": "UNENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_unresolved_shelby_pr_PR036732",
+      "primary_event_date": "04-SEP-2026",
+      "primary_parcel_id": null,
+      "primary_source_urls": [
+        "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR036732&begin_date=&end_date="
+      ],
+      "review_flags": [
+        "parcel_match_not_found",
+        "skiptrace_unconfirmed"
+      ],
+      "score_reasons": [
+        {
+          "delta": 55,
+          "factor": "base_LETTERS_TESTAMENTARY"
+        }
+      ],
+      "scored_lead_id": "scored_d5a5f07c916e326f",
+      "stack_contrib_patterns": [
+        "estate"
+      ],
+      "stack_depth": 1
+    },
+    {
+      "contact_info": {
+        "confirmed_address": null,
+        "confirmed_parcel_id": null,
+        "executor_name": "JOHNSON, TRAVIS",
+        "executor_phone": null,
+        "tps_decedent_addresses": [],
+        "tps_enriched": false
+      },
+      "display_address": "",
+      "display_address_city": null,
+      "display_address_state": null,
+      "display_address_street": null,
+      "display_address_zip": null,
+      "display_assessed_value": null,
+      "display_attributes": [],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "SANDRA DENISE JOHNSON",
+      "display_owner_type": "INDIVIDUAL",
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_patterns": [
+        "estate"
+      ],
+      "display_score": 55,
+      "display_tier": "Workable",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "enrichment_status": "UNENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_unresolved_shelby_pr_PR036733",
+      "primary_event_date": "04-SEP-2026",
+      "primary_parcel_id": null,
+      "primary_source_urls": [
+        "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR036733&begin_date=&end_date="
+      ],
+      "review_flags": [
+        "parcel_match_ambiguous_common_name",
+        "skiptrace_unconfirmed"
+      ],
+      "score_reasons": [
+        {
+          "delta": 55,
+          "factor": "base_LETTERS_TESTAMENTARY"
+        }
+      ],
+      "scored_lead_id": "scored_17ce6ced3a8724a7",
+      "stack_contrib_patterns": [
+        "estate"
+      ],
+      "stack_depth": 1
     }
   ],
   "score_tier_distribution": {
-    "Archive": 137,
+    "Archive": 123,
     "Low": 64,
-    "Workable": 105
+    "Strong": 1,
+    "Workable": 93
   },
   "semantic_verdict": "NEEDS_OPERATOR_REVIEW",
   "stack_depth_distribution": {
-    "0": 15,
-    "1": 289,
-    "2": 2
+    "0": 16,
+    "1": 262,
+    "2": 3
   },
   "state": "TN"
 }

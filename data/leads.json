@@ -1,25 +1,25 @@
 {
   "attribute_counts": {
-    "absentee": 86,
+    "absentee": 90,
     "entity_owned": 15,
-    "out_of_state": 14
+    "out_of_state": 15
   },
   "build_label": "PARTIAL_BUILD",
   "county": "Shelby County",
   "deal_path_distribution": {
     "messy_title": 2,
     "sub_to": 8,
-    "wholesale": 258
+    "wholesale": 264
   },
   "enrichment_breakdown": {
-    "ENRICHED": 133,
+    "ENRICHED": 139,
     "UNENRICHED": 142
   },
-  "generated_at": "2026-09-17T14:51:02Z",
-  "lead_total": 275,
+  "generated_at": "2026-09-18T15:08:01Z",
+  "lead_total": 281,
   "mode": "production",
   "pattern_counts": {
-    "estate": 27,
+    "estate": 33,
     "eviction": 15,
     "foreclosure": 42,
     "lien": 91,
@@ -782,6 +782,83 @@
         }
       ],
       "scored_lead_id": "scored_9837f5b1001ff3c4",
+      "stack_contrib_patterns": [
+        "estate"
+      ],
+      "stack_depth": 1
+    },
+    {
+      "contact_info": {
+        "confirmed_address": null,
+        "confirmed_parcel_id": null,
+        "executor_name": "QUINN, CHRISTINE DIANE",
+        "executor_phone": null,
+        "tps_decedent_addresses": [],
+        "tps_enriched": false
+      },
+      "display_address": "1516 COLONIAL RD, MEMPHIS, TN",
+      "display_address_city": "MEMPHIS",
+      "display_address_state": "TN",
+      "display_address_street": "1516 COLONIAL RD",
+      "display_address_zip": "38117",
+      "display_assessed_value": null,
+      "display_attributes": [
+        "absentee"
+      ],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_doc_types": [
+        "letters_testamentary"
+      ],
+      "display_is_absentee_owner": null,
+      "display_is_out_of_state_owner": null,
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "GERALD W. QUINN JR",
+      "display_owner_type": "INDIVIDUAL",
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_patterns": [
+        "estate"
+      ],
+      "display_score": 58,
+      "display_tier": "Workable",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "display_years_tax_delinquent": null,
+      "enrichment_status": "ENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_parcel_066068  00026",
+      "primary_event_date": "17-SEP-2026",
+      "primary_parcel_id": "066068  00026",
+      "primary_source_urls": [
+        "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR036824&begin_date=&end_date="
+      ],
+      "review_flags": [
+        "skiptrace_unconfirmed"
+      ],
+      "score_reasons": [
+        {
+          "delta": 55,
+          "factor": "base_LETTERS_TESTAMENTARY"
+        },
+        {
+          "delta": 3,
+          "factor": "attribute_bonus"
+        }
+      ],
+      "scored_lead_id": "scored_312860aa82d90b55",
       "stack_contrib_patterns": [
         "estate"
       ],
@@ -1989,6 +2066,77 @@
       "stack_depth": 1
     },
     {
+      "contact_info": {
+        "confirmed_address": null,
+        "confirmed_parcel_id": null,
+        "executor_name": "MACBRIDE, TANTILEER",
+        "executor_phone": null,
+        "tps_decedent_addresses": [],
+        "tps_enriched": false
+      },
+      "display_address": "27 HAAS AVE, MEMPHIS, TN",
+      "display_address_city": "MEMPHIS",
+      "display_address_state": "TN",
+      "display_address_street": "27 HAAS AVE",
+      "display_address_zip": "38109",
+      "display_assessed_value": null,
+      "display_attributes": [],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_doc_types": [
+        "letters_testamentary"
+      ],
+      "display_is_absentee_owner": null,
+      "display_is_out_of_state_owner": null,
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "TOMMY TRAYLOR",
+      "display_owner_type": "INDIVIDUAL",
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_patterns": [
+        "estate"
+      ],
+      "display_score": 55,
+      "display_tier": "Workable",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "display_years_tax_delinquent": null,
+      "enrichment_status": "ENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_parcel_076034 F00018",
+      "primary_event_date": "18-SEP-2026",
+      "primary_parcel_id": "076034 F00018",
+      "primary_source_urls": [
+        "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR036831&begin_date=&end_date="
+      ],
+      "review_flags": [
+        "skiptrace_unconfirmed"
+      ],
+      "score_reasons": [
+        {
+          "delta": 55,
+          "factor": "base_LETTERS_TESTAMENTARY"
+        }
+      ],
+      "scored_lead_id": "scored_8785f5e03c016e5b",
+      "stack_contrib_patterns": [
+        "estate"
+      ],
+      "stack_depth": 1
+    },
+    {
       "display_address": "3264 BREVARD DR, MEMPHIS, TN",
       "display_address_city": "MEMPHIS",
       "display_address_state": "TN",
@@ -2200,6 +2348,77 @@
         }
       ],
       "scored_lead_id": "scored_054827554ba401dd",
+      "stack_contrib_patterns": [
+        "estate"
+      ],
+      "stack_depth": 1
+    },
+    {
+      "contact_info": {
+        "confirmed_address": null,
+        "confirmed_parcel_id": null,
+        "executor_name": "BROWNLEE, SAMANTHA",
+        "executor_phone": null,
+        "tps_decedent_addresses": [],
+        "tps_enriched": false
+      },
+      "display_address": "1235 FAVELL DR, MEMPHIS, TN",
+      "display_address_city": "MEMPHIS",
+      "display_address_state": "TN",
+      "display_address_street": "1235 FAVELL DR",
+      "display_address_zip": "38116",
+      "display_assessed_value": null,
+      "display_attributes": [],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_doc_types": [
+        "letters_testamentary"
+      ],
+      "display_is_absentee_owner": null,
+      "display_is_out_of_state_owner": null,
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "SAMUEL BROWNLEE",
+      "display_owner_type": "INDIVIDUAL",
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_patterns": [
+        "estate"
+      ],
+      "display_score": 55,
+      "display_tier": "Workable",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "display_years_tax_delinquent": null,
+      "enrichment_status": "ENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_parcel_078072  00008",
+      "primary_event_date": "17-SEP-2026",
+      "primary_parcel_id": "078072  00008",
+      "primary_source_urls": [
+        "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR036828&begin_date=&end_date="
+      ],
+      "review_flags": [
+        "skiptrace_unconfirmed"
+      ],
+      "score_reasons": [
+        {
+          "delta": 55,
+          "factor": "base_LETTERS_TESTAMENTARY"
+        }
+      ],
+      "scored_lead_id": "scored_ccf72c8cd394d338",
       "stack_contrib_patterns": [
         "estate"
       ],
@@ -2856,6 +3075,84 @@
       "scored_lead_id": "scored_505b9a1e266893aa",
       "stack_contrib_patterns": [
         "tax"
+      ],
+      "stack_depth": 1
+    },
+    {
+      "contact_info": {
+        "confirmed_address": null,
+        "confirmed_parcel_id": null,
+        "executor_name": "MILLER, KARYN K",
+        "executor_phone": null,
+        "tps_decedent_addresses": [],
+        "tps_enriched": false
+      },
+      "display_address": "4263 GENYTH AVE, MEMPHIS, TN",
+      "display_address_city": "MEMPHIS",
+      "display_address_state": "TN",
+      "display_address_street": "4263 GENYTH AVE",
+      "display_address_zip": "38128",
+      "display_assessed_value": null,
+      "display_attributes": [
+        "absentee",
+        "out_of_state"
+      ],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_doc_types": [
+        "letters_testamentary"
+      ],
+      "display_is_absentee_owner": null,
+      "display_is_out_of_state_owner": null,
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "MILLER JR, BENJAMIN HOWARD",
+      "display_owner_type": "INDIVIDUAL",
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_patterns": [
+        "estate"
+      ],
+      "display_score": 60,
+      "display_tier": "Workable",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "display_years_tax_delinquent": null,
+      "enrichment_status": "ENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_parcel_086011  00012",
+      "primary_event_date": "17-SEP-2026",
+      "primary_parcel_id": "086011  00012",
+      "primary_source_urls": [
+        "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR036825&begin_date=&end_date="
+      ],
+      "review_flags": [
+        "skiptrace_unconfirmed"
+      ],
+      "score_reasons": [
+        {
+          "delta": 55,
+          "factor": "base_LETTERS_TESTAMENTARY"
+        },
+        {
+          "delta": 5,
+          "factor": "attribute_bonus"
+        }
+      ],
+      "scored_lead_id": "scored_2945675451751793",
+      "stack_contrib_patterns": [
+        "estate"
       ],
       "stack_depth": 1
     },
@@ -7346,6 +7643,83 @@
       "stack_depth": 1
     },
     {
+      "contact_info": {
+        "confirmed_address": null,
+        "confirmed_parcel_id": null,
+        "executor_name": null,
+        "executor_phone": null,
+        "tps_decedent_addresses": [],
+        "tps_enriched": false
+      },
+      "display_address": "8654 LEAF MANOR CV, UNINCORPORATED, TN",
+      "display_address_city": "UNINCORPORATED",
+      "display_address_state": "TN",
+      "display_address_street": "8654 LEAF MANOR CV",
+      "display_address_zip": "38018",
+      "display_assessed_value": null,
+      "display_attributes": [
+        "absentee"
+      ],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_doc_types": [
+        "letters_testamentary"
+      ],
+      "display_is_absentee_owner": null,
+      "display_is_out_of_state_owner": null,
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "DEAVISER, RUTH H",
+      "display_owner_type": "INDIVIDUAL",
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_patterns": [
+        "estate"
+      ],
+      "display_score": 58,
+      "display_tier": "Workable",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "display_years_tax_delinquent": null,
+      "enrichment_status": "ENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_parcel_D0220Q F00167",
+      "primary_event_date": "17-SEP-2026",
+      "primary_parcel_id": "D0220Q F00167",
+      "primary_source_urls": [
+        "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR036822&begin_date=&end_date="
+      ],
+      "review_flags": [
+        "skiptrace_unconfirmed"
+      ],
+      "score_reasons": [
+        {
+          "delta": 55,
+          "factor": "base_LETTERS_TESTAMENTARY"
+        },
+        {
+          "delta": 3,
+          "factor": "attribute_bonus"
+        }
+      ],
+      "scored_lead_id": "scored_eaf2742be71d2e84",
+      "stack_contrib_patterns": [
+        "estate"
+      ],
+      "stack_depth": 1
+    },
+    {
       "display_address": "271 MOUNTAIN BROOK CV, UNINCORPORATED, TN",
       "display_address_city": "UNINCORPORATED",
       "display_address_state": "TN",
@@ -8256,6 +8630,83 @@
       "scored_lead_id": "scored_fc77ef21c8e039f1",
       "stack_contrib_patterns": [
         "lien"
+      ],
+      "stack_depth": 1
+    },
+    {
+      "contact_info": {
+        "confirmed_address": null,
+        "confirmed_parcel_id": null,
+        "executor_name": "SCHRINER, LAURA",
+        "executor_phone": null,
+        "tps_decedent_addresses": [],
+        "tps_enriched": false
+      },
+      "display_address": "4014 LIGHTHOUSE CV, LAKELAND, TN",
+      "display_address_city": "LAKELAND",
+      "display_address_state": "TN",
+      "display_address_street": "4014 LIGHTHOUSE CV",
+      "display_address_zip": "38002",
+      "display_assessed_value": null,
+      "display_attributes": [
+        "absentee"
+      ],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_doc_types": [
+        "letters_testamentary"
+      ],
+      "display_is_absentee_owner": null,
+      "display_is_out_of_state_owner": null,
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "POTTER, WILLIAM A.",
+      "display_owner_type": "INDIVIDUAL",
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_patterns": [
+        "estate"
+      ],
+      "display_score": 58,
+      "display_tier": "Workable",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "display_years_tax_delinquent": null,
+      "enrichment_status": "ENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_parcel_L0159V A00039",
+      "primary_event_date": "17-SEP-2026",
+      "primary_parcel_id": "L0159V A00039",
+      "primary_source_urls": [
+        "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR036823&begin_date=&end_date="
+      ],
+      "review_flags": [
+        "skiptrace_unconfirmed"
+      ],
+      "score_reasons": [
+        {
+          "delta": 55,
+          "factor": "base_LETTERS_TESTAMENTARY"
+        },
+        {
+          "delta": 3,
+          "factor": "attribute_bonus"
+        }
+      ],
+      "scored_lead_id": "scored_226f2ba56928632e",
+      "stack_contrib_patterns": [
+        "estate"
       ],
       "stack_depth": 1
     },
@@ -17312,12 +17763,12 @@
   "score_tier_distribution": {
     "Archive": 148,
     "Low": 80,
-    "Workable": 47
+    "Workable": 53
   },
   "semantic_verdict": "NEEDS_OPERATOR_REVIEW",
   "stack_depth_distribution": {
     "0": 17,
-    "1": 254,
+    "1": 260,
     "2": 3,
     "3": 1
   },

@@ -1,8 +1,8 @@
 {
   "attribute_counts": {
-    "absentee": 75,
-    "entity_owned": 21,
-    "out_of_state": 14
+    "absentee": 77,
+    "entity_owned": 25,
+    "out_of_state": 16
   },
   "build_label": "PARTIAL_BUILD",
   "county": "Shelby County",
@@ -12,10 +12,10 @@
     "wholesale": 224
   },
   "enrichment_breakdown": {
-    "ENRICHED": 140,
-    "UNENRICHED": 110
+    "ENRICHED": 137,
+    "UNENRICHED": 113
   },
-  "generated_at": "2026-10-29T02:10:32Z",
+  "generated_at": "2026-10-29T15:51:05Z",
   "lead_total": 250,
   "mode": "production",
   "pattern_counts": {
@@ -567,78 +567,6 @@
       "scored_lead_id": "scored_6fd5d52c05b57476",
       "stack_contrib_patterns": [
         "tax"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "display_address": "981 ALASKA ST, MEMPHIS, TN",
-      "display_address_city": "MEMPHIS",
-      "display_address_state": "TN",
-      "display_address_street": "981 ALASKA ST",
-      "display_address_zip": "38107",
-      "display_assessed_value": null,
-      "display_attributes": [
-        "absentee"
-      ],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_doc_types": [
-        "eviction_filing"
-      ],
-      "display_is_absentee_owner": null,
-      "display_is_out_of_state_owner": null,
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "MORRIS, RONALD L",
-      "display_owner_mailing": "981 ALASKA, MEMPHIS, TN 38107",
-      "display_owner_mailing_address": "981 ALASKA",
-      "display_owner_mailing_city": "MEMPHIS",
-      "display_owner_mailing_state": "TN",
-      "display_owner_mailing_zip": "38107",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "eviction"
-      ],
-      "display_patterns": [
-        "eviction"
-      ],
-      "display_score": 23,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "display_years_tax_delinquent": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_021116  00015",
-      "primary_event_date": "26-OCT-2026",
-      "primary_parcel_id": "021116  00015",
-      "primary_source_urls": [
-        "https://gscivildata.shelbycountytn.gov/pls/gnweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=2417846&begin_date=&end_date="
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 20,
-          "factor": "base_EVICTION_FILING"
-        },
-        {
-          "delta": 3,
-          "factor": "attribute_bonus"
-        }
-      ],
-      "scored_lead_id": "scored_d6a0a60fd084a4d1",
-      "stack_contrib_patterns": [
-        "eviction"
       ],
       "stack_depth": 1
     },
@@ -3377,133 +3305,6 @@
       "stack_depth": 1
     },
     {
-      "display_address": "3547 MOUNTAIN TERRACE ST, MEMPHIS, TN",
-      "display_address_city": "MEMPHIS",
-      "display_address_state": "TN",
-      "display_address_street": "3547 MOUNTAIN TERRACE ST",
-      "display_address_zip": "38127",
-      "display_assessed_value": null,
-      "display_attributes": [
-        "absentee",
-        "entity_owned",
-        "out_of_state"
-      ],
-      "display_deal_path_details": [],
-      "display_deal_paths": [],
-      "display_doc_types": [
-        "sub_trustees_deed"
-      ],
-      "display_is_absentee_owner": null,
-      "display_is_out_of_state_owner": null,
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "REVIEW_REQUIRED",
-      "display_match_confidence": 0,
-      "display_owner": "PAC RENTAL MANAGEMENT LLC",
-      "display_owner_mailing": "30 N GOULD ST, SHERIDAN, WY 82801",
-      "display_owner_mailing_address": "30 N GOULD ST",
-      "display_owner_mailing_city": "SHERIDAN",
-      "display_owner_mailing_state": "WY",
-      "display_owner_mailing_zip": "82801",
-      "display_owner_type": "ENTITY",
-      "display_pattern_set": [],
-      "display_patterns": [],
-      "display_score": 7,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "display_years_tax_delinquent": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_072080  00014",
-      "primary_event_date": "10/21/2026",
-      "primary_parcel_id": "072080  00014",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26091805"
-      ],
-      "review_flags": [
-        "no_pattern_fired"
-      ],
-      "score_reasons": [
-        {
-          "delta": 7,
-          "factor": "attribute_bonus"
-        }
-      ],
-      "scored_lead_id": "scored_49928f2195964e93",
-      "stack_contrib_patterns": [],
-      "stack_depth": 0
-    },
-    {
-      "contact_info": {
-        "executor_name": "LAMPLEY, JIMMI"
-      },
-      "display_address": "3197 BALSAM CV, MEMPHIS, TN",
-      "display_address_city": "MEMPHIS",
-      "display_address_state": "TN",
-      "display_address_street": "3197 BALSAM CV",
-      "display_address_zip": "38127",
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_doc_types": [
-        "letters_testamentary"
-      ],
-      "display_is_absentee_owner": null,
-      "display_is_out_of_state_owner": null,
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "JIMMY LAMPLEY",
-      "display_owner_mailing": "3197 BALSAM CV, MEMPHIS, TN 38127",
-      "display_owner_mailing_address": "3197 BALSAM CV",
-      "display_owner_mailing_city": "MEMPHIS",
-      "display_owner_mailing_state": "TN",
-      "display_owner_mailing_zip": "38127",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "estate"
-      ],
-      "display_patterns": [
-        "estate"
-      ],
-      "display_score": 55,
-      "display_tier": "Workable",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "display_years_tax_delinquent": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_072107 C00016",
-      "primary_event_date": "22-OCT-2026",
-      "primary_parcel_id": "072107 C00016",
-      "primary_source_urls": [
-        "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR037122&begin_date=&end_date="
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 55,
-          "factor": "base_LETTERS_TESTAMENTARY"
-        }
-      ],
-      "scored_lead_id": "scored_179c97067fc26da0",
-      "stack_contrib_patterns": [
-        "estate"
-      ],
-      "stack_depth": 1
-    },
-    {
       "display_address": "2820 JAMES RD, MEMPHIS, TN",
       "display_address_city": "MEMPHIS",
       "display_address_state": "TN",
@@ -4095,7 +3896,10 @@
       "display_address_street": "832 PARKROSE AVE",
       "display_address_zip": "38109",
       "display_assessed_value": null,
-      "display_attributes": [],
+      "display_attributes": [
+        "absentee",
+        "entity_owned"
+      ],
       "display_deal_path_details": [],
       "display_deal_paths": [],
       "display_doc_types": [
@@ -4107,16 +3911,16 @@
       "display_last_sale_price": null,
       "display_lead_status": "REVIEW_REQUIRED",
       "display_match_confidence": 0,
-      "display_owner": "MCNEIL DOROTHY A",
-      "display_owner_mailing": "832 PARKROSE AVE, MEMPHIS, TN 38109",
-      "display_owner_mailing_address": "832 PARKROSE AVE",
+      "display_owner": "REED HOLDINGS LLC",
+      "display_owner_mailing": "0 PO BOX 751164, MEMPHIS, TN 38175",
+      "display_owner_mailing_address": "0 PO BOX 751164",
       "display_owner_mailing_city": "MEMPHIS",
       "display_owner_mailing_state": "TN",
-      "display_owner_mailing_zip": "38109",
-      "display_owner_type": "INDIVIDUAL",
+      "display_owner_mailing_zip": "38175",
+      "display_owner_type": "ENTITY",
       "display_pattern_set": [],
       "display_patterns": [],
-      "display_score": 0,
+      "display_score": 5,
       "display_tier": "Archive",
       "display_title_complexity_tier": "None",
       "display_year_built": null,
@@ -4132,8 +3936,13 @@
       "review_flags": [
         "no_pattern_fired"
       ],
-      "score_reasons": [],
-      "scored_lead_id": "scored_f9763d8e3482fd6f",
+      "score_reasons": [
+        {
+          "delta": 5,
+          "factor": "attribute_bonus"
+        }
+      ],
+      "scored_lead_id": "scored_75d641b5b095ca96",
       "stack_contrib_patterns": [],
       "stack_depth": 0
     },
@@ -4544,7 +4353,10 @@
       "display_address_street": "1202 MIDDLE CT",
       "display_address_zip": "38119",
       "display_assessed_value": null,
-      "display_attributes": [],
+      "display_attributes": [
+        "absentee",
+        "entity_owned"
+      ],
       "display_deal_path_details": [],
       "display_deal_paths": [],
       "display_doc_types": [
@@ -4556,16 +4368,16 @@
       "display_last_sale_price": null,
       "display_lead_status": "REVIEW_REQUIRED",
       "display_match_confidence": 0,
-      "display_owner": "WILLIAMS RANDY",
-      "display_owner_mailing": "1202 MIDDLE CT, MEMPHIS, TN 38119",
-      "display_owner_mailing_address": "1202 MIDDLE CT",
+      "display_owner": "SOUTHEAST INVESTORS LLC",
+      "display_owner_mailing": "475 RIVER RIDGE CV, MEMPHIS, TN 38120",
+      "display_owner_mailing_address": "475 RIVER RIDGE CV",
       "display_owner_mailing_city": "MEMPHIS",
       "display_owner_mailing_state": "TN",
-      "display_owner_mailing_zip": "38119",
-      "display_owner_type": "INDIVIDUAL",
+      "display_owner_mailing_zip": "38120",
+      "display_owner_type": "ENTITY",
       "display_pattern_set": [],
       "display_patterns": [],
-      "display_score": 0,
+      "display_score": 5,
       "display_tier": "Archive",
       "display_title_complexity_tier": "None",
       "display_year_built": null,
@@ -4581,8 +4393,13 @@
       "review_flags": [
         "no_pattern_fired"
       ],
-      "score_reasons": [],
-      "scored_lead_id": "scored_2129ba12472264e5",
+      "score_reasons": [
+        {
+          "delta": 5,
+          "factor": "attribute_bonus"
+        }
+      ],
+      "scored_lead_id": "scored_1e54770971bc631a",
       "stack_contrib_patterns": [],
       "stack_depth": 0
     },
@@ -7549,7 +7366,8 @@
       "display_address_zip": "38128",
       "display_assessed_value": null,
       "display_attributes": [
-        "absentee"
+        "absentee",
+        "entity_owned"
       ],
       "display_deal_path_details": [],
       "display_deal_paths": [],
@@ -7562,16 +7380,16 @@
       "display_last_sale_price": null,
       "display_lead_status": "REVIEW_REQUIRED",
       "display_match_confidence": 0,
-      "display_owner": "GLOVER MARIA",
-      "display_owner_mailing": "4338 ELYSIAN CV, MEMPHIS, TN 38128",
-      "display_owner_mailing_address": "4338 ELYSIAN CV",
+      "display_owner": "ESTATE VENTURES LLC",
+      "display_owner_mailing": "0 PO BOX 751224, MEMPHIS, TN 38175",
+      "display_owner_mailing_address": "0 PO BOX 751224",
       "display_owner_mailing_city": "MEMPHIS",
       "display_owner_mailing_state": "TN",
-      "display_owner_mailing_zip": "38128",
-      "display_owner_type": "INDIVIDUAL",
+      "display_owner_mailing_zip": "38175",
+      "display_owner_type": "ENTITY",
       "display_pattern_set": [],
       "display_patterns": [],
-      "display_score": 3,
+      "display_score": 5,
       "display_tier": "Archive",
       "display_title_complexity_tier": "None",
       "display_year_built": null,
@@ -7589,11 +7407,11 @@
       ],
       "score_reasons": [
         {
-          "delta": 3,
+          "delta": 5,
           "factor": "attribute_bonus"
         }
       ],
-      "scored_lead_id": "scored_38c071bcf352bef1",
+      "scored_lead_id": "scored_04465ec0666f39f3",
       "stack_contrib_patterns": [],
       "stack_depth": 0
     },
@@ -7605,7 +7423,9 @@
       "display_address_zip": "38016",
       "display_assessed_value": null,
       "display_attributes": [
-        "absentee"
+        "absentee",
+        "entity_owned",
+        "out_of_state"
       ],
       "display_deal_path_details": [],
       "display_deal_paths": [],
@@ -7618,16 +7438,16 @@
       "display_last_sale_price": null,
       "display_lead_status": "REVIEW_REQUIRED",
       "display_match_confidence": 0,
-      "display_owner": "CHARLES CHANTALE C",
-      "display_owner_mailing": "1592 SAWMILL CREEK LN, CORDOVA, TN 38016",
-      "display_owner_mailing_address": "1592 SAWMILL CREEK LN",
-      "display_owner_mailing_city": "CORDOVA",
-      "display_owner_mailing_state": "TN",
-      "display_owner_mailing_zip": "38016",
-      "display_owner_type": "INDIVIDUAL",
+      "display_owner": "PENNYMAC LOAN SERVICES LLC",
+      "display_owner_mailing": "3043 TOWNSGATE RD, WESTLAKE VILLAGE, CA 91361",
+      "display_owner_mailing_address": "3043 TOWNSGATE RD",
+      "display_owner_mailing_city": "WESTLAKE VILLAGE",
+      "display_owner_mailing_state": "CA",
+      "display_owner_mailing_zip": "91361",
+      "display_owner_type": "ENTITY",
       "display_pattern_set": [],
       "display_patterns": [],
-      "display_score": 3,
+      "display_score": 7,
       "display_tier": "Archive",
       "display_title_complexity_tier": "None",
       "display_year_built": null,
@@ -7645,11 +7465,11 @@
       ],
       "score_reasons": [
         {
-          "delta": 3,
+          "delta": 7,
           "factor": "attribute_bonus"
         }
       ],
-      "scored_lead_id": "scored_789e9f5913fca09c",
+      "scored_lead_id": "scored_50ee7a6269471b6a",
       "stack_contrib_patterns": [],
       "stack_depth": 0
     },
@@ -8884,7 +8704,10 @@
       "display_address_street": "2455 BIRNAM WOOD DR",
       "display_address_zip": "38138",
       "display_assessed_value": null,
-      "display_attributes": [],
+      "display_attributes": [
+        "absentee",
+        "out_of_state"
+      ],
       "display_deal_path_details": [],
       "display_deal_paths": [],
       "display_doc_types": [
@@ -8896,16 +8719,16 @@
       "display_last_sale_price": null,
       "display_lead_status": "REVIEW_REQUIRED",
       "display_match_confidence": 0,
-      "display_owner": "SETH ANKUR & SHABNAM MINHAS",
-      "display_owner_mailing": "2455 BIRNAM WOOD DR, GERMANTOWN, TN 38138",
-      "display_owner_mailing_address": "2455 BIRNAM WOOD DR",
-      "display_owner_mailing_city": "GERMANTOWN",
-      "display_owner_mailing_state": "TN",
-      "display_owner_mailing_zip": "38138",
+      "display_owner": "VALLEY STRONG CREDIT UNION",
+      "display_owner_mailing": "10800 GEDDES AVE, ENGLEWOOD, CO 80112",
+      "display_owner_mailing_address": "10800 GEDDES AVE",
+      "display_owner_mailing_city": "ENGLEWOOD",
+      "display_owner_mailing_state": "CO",
+      "display_owner_mailing_zip": "80112",
       "display_owner_type": "INDIVIDUAL",
       "display_pattern_set": [],
       "display_patterns": [],
-      "display_score": 0,
+      "display_score": 5,
       "display_tier": "Archive",
       "display_title_complexity_tier": "None",
       "display_year_built": null,
@@ -8921,8 +8744,13 @@
       "review_flags": [
         "no_pattern_fired"
       ],
-      "score_reasons": [],
-      "scored_lead_id": "scored_06cf7becbb82e1f4",
+      "score_reasons": [
+        {
+          "delta": 5,
+          "factor": "attribute_bonus"
+        }
+      ],
+      "scored_lead_id": "scored_d8536f92b86dff64",
       "stack_contrib_patterns": [],
       "stack_depth": 0
     },
@@ -9228,7 +9056,11 @@
       "display_address_street": "9617 DALY DR",
       "display_address_zip": "38002",
       "display_assessed_value": null,
-      "display_attributes": [],
+      "display_attributes": [
+        "absentee",
+        "entity_owned",
+        "out_of_state"
+      ],
       "display_deal_path_details": [],
       "display_deal_paths": [],
       "display_doc_types": [
@@ -9240,16 +9072,16 @@
       "display_last_sale_price": null,
       "display_lead_status": "REVIEW_REQUIRED",
       "display_match_confidence": 0,
-      "display_owner": "WHITING-YAHYNAS HACIMA",
-      "display_owner_mailing": "9617 DALY DR, LAKELAND, TN 38002",
-      "display_owner_mailing_address": "9617 DALY DR",
-      "display_owner_mailing_city": "LAKELAND",
-      "display_owner_mailing_state": "TN",
-      "display_owner_mailing_zip": "38002",
-      "display_owner_type": "INDIVIDUAL",
+      "display_owner": "VILLAGE CAPITAL & INVESTMENT LLC",
+      "display_owner_mailing": "2460 PASEO VERDE PKWY, HENDERSON, NV 89074",
+      "display_owner_mailing_address": "2460 PASEO VERDE PKWY",
+      "display_owner_mailing_city": "HENDERSON",
+      "display_owner_mailing_state": "NV",
+      "display_owner_mailing_zip": "89074",
+      "display_owner_type": "ENTITY",
       "display_pattern_set": [],
       "display_patterns": [],
-      "display_score": 0,
+      "display_score": 7,
       "display_tier": "Archive",
       "display_title_complexity_tier": "None",
       "display_year_built": null,
@@ -9265,8 +9097,13 @@
       "review_flags": [
         "no_pattern_fired"
       ],
-      "score_reasons": [],
-      "scored_lead_id": "scored_d3a18de4ced7c164",
+      "score_reasons": [
+        {
+          "delta": 7,
+          "factor": "attribute_bonus"
+        }
+      ],
+      "scored_lead_id": "scored_a31fcbf32d799d12",
       "stack_contrib_patterns": [],
       "stack_depth": 0
     },
@@ -10034,6 +9871,58 @@
         "foreclosure"
       ],
       "stack_depth": 1
+    },
+    {
+      "display_address": "3547 MOUNTAIN TERRACE ST MEMPHIS, TN 38127",
+      "display_address_city": null,
+      "display_address_source": "posting",
+      "display_address_state": null,
+      "display_address_street": null,
+      "display_address_zip": null,
+      "display_assessed_value": null,
+      "display_attributes": [],
+      "display_deal_path_details": [],
+      "display_deal_paths": [],
+      "display_doc_types": [
+        "sub_trustees_deed"
+      ],
+      "display_is_absentee_owner": null,
+      "display_is_out_of_state_owner": null,
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_match_confidence": 0,
+      "display_owner": "sub_trustees_deed against unidentified party",
+      "display_owner_mailing": "",
+      "display_owner_mailing_address": null,
+      "display_owner_mailing_city": null,
+      "display_owner_mailing_state": null,
+      "display_owner_mailing_zip": null,
+      "display_owner_type": "UNKNOWN",
+      "display_pattern_set": [],
+      "display_patterns": [],
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "display_years_tax_delinquent": null,
+      "enrichment_status": "UNENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_unresolved_26091805",
+      "primary_event_date": "10/21/2026",
+      "primary_parcel_id": null,
+      "primary_source_urls": [
+        "https://search.register.shelby.tn.us/search/content.php?inst_num=26091805"
+      ],
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:known_filer_pattern match: mortgage_lender:MORTGAGE CORP",
+        "no_pattern_fired"
+      ],
+      "score_reasons": [],
+      "scored_lead_id": "scored_559de07d30e7da87",
+      "stack_contrib_patterns": [],
+      "stack_depth": 0
     },
     {
       "display_address": "",
@@ -14935,7 +14824,7 @@
       "stack_depth": 1
     },
     {
-      "display_address": "C/O FLAG CITY MHC 8393 HWY 51 N Millington TN 38053",
+      "display_address": "1301 N STONEWALL STREET Memphis TN 38108",
       "display_address_city": null,
       "display_address_source": "posting",
       "display_address_state": null,
@@ -14962,7 +14851,74 @@
       "display_last_sale_price": null,
       "display_lead_status": "APPROVED_FOR_DASHBOARD",
       "display_match_confidence": 0,
-      "display_owner": "JIMENEZ, BRENDA SANTANA",
+      "display_owner": "RONALD L MORRIS",
+      "display_owner_mailing": "",
+      "display_owner_mailing_address": null,
+      "display_owner_mailing_city": null,
+      "display_owner_mailing_state": null,
+      "display_owner_mailing_zip": null,
+      "display_owner_type": "INDIVIDUAL",
+      "display_pattern_set": [
+        "eviction"
+      ],
+      "display_patterns": [
+        "eviction"
+      ],
+      "display_score": 20,
+      "display_tier": "Archive",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "display_years_tax_delinquent": null,
+      "enrichment_status": "UNENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_unresolved_shelby_gs_2417846",
+      "primary_event_date": "26-OCT-2026",
+      "primary_parcel_id": null,
+      "primary_source_urls": [
+        "https://gscivildata.shelbycountytn.gov/pls/gnweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=2417846&begin_date=&end_date="
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        {
+          "delta": 20,
+          "factor": "base_EVICTION_FILING"
+        }
+      ],
+      "scored_lead_id": "scored_e5c008032423352b",
+      "stack_contrib_patterns": [
+        "eviction"
+      ],
+      "stack_depth": 1
+    },
+    {
+      "display_address": "4868 BILRAE CIRCLE NORTH Millington TN 38053",
+      "display_address_city": null,
+      "display_address_source": "posting",
+      "display_address_state": null,
+      "display_address_street": null,
+      "display_address_zip": null,
+      "display_assessed_value": null,
+      "display_attributes": [],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_doc_types": [
+        "eviction_filing"
+      ],
+      "display_is_absentee_owner": null,
+      "display_is_out_of_state_owner": null,
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "BRENDA SANTANA JIMENEZ",
       "display_owner_mailing": "",
       "display_owner_mailing_address": null,
       "display_owner_mailing_city": null,
@@ -15552,6 +15508,77 @@
         }
       ],
       "scored_lead_id": "scored_87bca38d7b5047b9",
+      "stack_contrib_patterns": [
+        "estate"
+      ],
+      "stack_depth": 1
+    },
+    {
+      "contact_info": {
+        "executor_name": "LAMPLEY, JIMMI"
+      },
+      "display_address": "",
+      "display_address_city": null,
+      "display_address_state": null,
+      "display_address_street": null,
+      "display_address_zip": null,
+      "display_assessed_value": null,
+      "display_attributes": [],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_doc_types": [
+        "letters_testamentary"
+      ],
+      "display_is_absentee_owner": null,
+      "display_is_out_of_state_owner": null,
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "JIMMY LAMPLEY",
+      "display_owner_mailing": "",
+      "display_owner_mailing_address": null,
+      "display_owner_mailing_city": null,
+      "display_owner_mailing_state": null,
+      "display_owner_mailing_zip": null,
+      "display_owner_type": "INDIVIDUAL",
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_patterns": [
+        "estate"
+      ],
+      "display_score": 55,
+      "display_tier": "Workable",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "display_years_tax_delinquent": null,
+      "enrichment_status": "UNENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_unresolved_shelby_pr_PR037122",
+      "primary_event_date": "22-OCT-2026",
+      "primary_parcel_id": null,
+      "primary_source_urls": [
+        "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR037122&begin_date=&end_date="
+      ],
+      "review_flags": [
+        "parcel_match_low_confidence"
+      ],
+      "score_reasons": [
+        {
+          "delta": 55,
+          "factor": "base_LETTERS_TESTAMENTARY"
+        }
+      ],
+      "scored_lead_id": "scored_fd5244e9cd6b5a06",
       "stack_contrib_patterns": [
         "estate"
       ],

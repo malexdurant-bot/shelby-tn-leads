@@ -2,24 +2,24 @@
   "attribute_counts": {
     "absentee": 60,
     "entity_owned": 16,
-    "out_of_state": 16
+    "out_of_state": 18
   },
   "build_label": "PARTIAL_BUILD",
   "county": "Shelby County",
   "deal_path_distribution": {
     "messy_title": 6,
     "sub_to": 14,
-    "wholesale": 195
+    "wholesale": 196
   },
   "enrichment_breakdown": {
-    "ENRICHED": 106,
-    "UNENRICHED": 118
+    "ENRICHED": 104,
+    "UNENRICHED": 121
   },
-  "generated_at": "2026-11-11T16:24:11Z",
-  "lead_total": 224,
+  "generated_at": "2026-11-12T18:06:23Z",
+  "lead_total": 225,
   "mode": "production",
   "pattern_counts": {
-    "estate": 22,
+    "estate": 23,
     "eviction": 13,
     "foreclosure": 50,
     "lien": 28,
@@ -365,7 +365,7 @@
       "display_assessed_value": null,
       "display_attributes": [
         "absentee",
-        "entity_owned"
+        "out_of_state"
       ],
       "display_deal_path_details": [],
       "display_deal_paths": [],
@@ -378,13 +378,13 @@
       "display_last_sale_price": null,
       "display_lead_status": "REVIEW_REQUIRED",
       "display_match_confidence": 0,
-      "display_owner": "PUZZLE PEACE REAL ESTATE GROUP LLC",
-      "display_owner_mailing": "1910 MADISON AVE, MEMPHIS, TN 38104",
-      "display_owner_mailing_address": "1910 MADISON AVE",
-      "display_owner_mailing_city": "MEMPHIS",
-      "display_owner_mailing_state": "TN",
-      "display_owner_mailing_zip": "38104",
-      "display_owner_type": "ENTITY",
+      "display_owner": "TYRON STREET ACQUISITION",
+      "display_owner_mailing": "3501 OLYMPUS BLVD, COPPELL, TX 75019",
+      "display_owner_mailing_address": "3501 OLYMPUS BLVD",
+      "display_owner_mailing_city": "COPPELL",
+      "display_owner_mailing_state": "TX",
+      "display_owner_mailing_zip": "75019",
+      "display_owner_type": "INDIVIDUAL",
       "display_pattern_set": [],
       "display_patterns": [],
       "display_score": 5,
@@ -1919,7 +1919,7 @@
       "display_last_sale_price": null,
       "display_lead_status": "APPROVED_FOR_DASHBOARD",
       "display_match_confidence": 0,
-      "display_owner": "BALOUS, CHARLES",
+      "display_owner": "CHARLES BALOUS",
       "display_owner_mailing": "1500 HINDMAN AVE, MEMPHIS, TN 38127",
       "display_owner_mailing_address": "1500 HINDMAN AVE",
       "display_owner_mailing_city": "MEMPHIS",
@@ -2256,12 +2256,12 @@
       "display_last_sale_price": null,
       "display_lead_status": "REVIEW_REQUIRED",
       "display_match_confidence": 0,
-      "display_owner": "MC2 UNLIMITED LLC",
-      "display_owner_mailing": "618 ACOMA ST, BELEN, NM 87002",
-      "display_owner_mailing_address": "618 ACOMA ST",
-      "display_owner_mailing_city": "BELEN",
-      "display_owner_mailing_state": "NM",
-      "display_owner_mailing_zip": "87002",
+      "display_owner": "PACIFIC ASSET HOLDING LLC",
+      "display_owner_mailing": "1 METLIFE WAY, WHIPPANY, NJ 07981",
+      "display_owner_mailing_address": "1 METLIFE WAY",
+      "display_owner_mailing_city": "WHIPPANY",
+      "display_owner_mailing_state": "NJ",
+      "display_owner_mailing_zip": "07981",
       "display_owner_type": "ENTITY",
       "display_pattern_set": [],
       "display_patterns": [],
@@ -2314,12 +2314,12 @@
       "display_last_sale_price": null,
       "display_lead_status": "REVIEW_REQUIRED",
       "display_match_confidence": 0,
-      "display_owner": "MC2 UNLIMITED LLC",
-      "display_owner_mailing": "618 ACOMA ST, BELEN, NM 87002",
-      "display_owner_mailing_address": "618 ACOMA ST",
-      "display_owner_mailing_city": "BELEN",
-      "display_owner_mailing_state": "NM",
-      "display_owner_mailing_zip": "87002",
+      "display_owner": "PACIFIC ASSET HOLDING LLC S TR",
+      "display_owner_mailing": "1601 LBJ FREEWAY, DALLAS, TX 75234",
+      "display_owner_mailing_address": "1601 LBJ FREEWAY",
+      "display_owner_mailing_city": "DALLAS",
+      "display_owner_mailing_state": "TX",
+      "display_owner_mailing_zip": "75234",
       "display_owner_type": "ENTITY",
       "display_pattern_set": [],
       "display_patterns": [],
@@ -2571,13 +2571,13 @@
       "display_last_sale_price": null,
       "display_lead_status": "REVIEW_REQUIRED",
       "display_match_confidence": 0,
-      "display_owner": "HORN ESTELLE A REVOCABLE LIVING TRUST",
+      "display_owner": "HORN JAMES D",
       "display_owner_mailing": "4989 BRYNDALE AVE, MEMPHIS, TN 38118",
       "display_owner_mailing_address": "4989 BRYNDALE AVE",
       "display_owner_mailing_city": "MEMPHIS",
       "display_owner_mailing_state": "TN",
       "display_owner_mailing_zip": "38118",
-      "display_owner_type": "TRUST",
+      "display_owner_type": "INDIVIDUAL",
       "display_pattern_set": [],
       "display_patterns": [],
       "display_score": 0,
@@ -2682,7 +2682,10 @@
       "display_address_street": "2859 EMERALD ST",
       "display_address_zip": "38115",
       "display_assessed_value": null,
-      "display_attributes": [],
+      "display_attributes": [
+        "absentee",
+        "entity_owned"
+      ],
       "display_deal_path_details": [],
       "display_deal_paths": [],
       "display_doc_types": [
@@ -2694,16 +2697,16 @@
       "display_last_sale_price": null,
       "display_lead_status": "REVIEW_REQUIRED",
       "display_match_confidence": 0,
-      "display_owner": "BEARD MAJOR JR AND JANICE HALLEY",
-      "display_owner_mailing": "2859 EMERALD ST, MEMPHIS, TN 38115",
-      "display_owner_mailing_address": "2859 EMERALD ST",
-      "display_owner_mailing_city": "MEMPHIS",
+      "display_owner": "MHV1 LLC",
+      "display_owner_mailing": "6225 QUINTARD ST, ARLINGTON, TN 38002",
+      "display_owner_mailing_address": "6225 QUINTARD ST",
+      "display_owner_mailing_city": "ARLINGTON",
       "display_owner_mailing_state": "TN",
-      "display_owner_mailing_zip": "38115",
-      "display_owner_type": "INDIVIDUAL",
+      "display_owner_mailing_zip": "38002",
+      "display_owner_type": "ENTITY",
       "display_pattern_set": [],
       "display_patterns": [],
-      "display_score": 0,
+      "display_score": 5,
       "display_tier": "Archive",
       "display_title_complexity_tier": "None",
       "display_year_built": null,
@@ -2719,8 +2722,13 @@
       "review_flags": [
         "no_pattern_fired"
       ],
-      "score_reasons": [],
-      "scored_lead_id": "scored_3d10ebc42eec0baa",
+      "score_reasons": [
+        {
+          "delta": 5,
+          "factor": "attribute_bonus"
+        }
+      ],
+      "scored_lead_id": "scored_322a2286ac888e47",
       "stack_contrib_patterns": [],
       "stack_depth": 0
     },
@@ -2732,7 +2740,8 @@
       "display_address_zip": "38115",
       "display_assessed_value": null,
       "display_attributes": [
-        "absentee"
+        "absentee",
+        "out_of_state"
       ],
       "display_deal_path_details": [],
       "display_deal_paths": [],
@@ -2745,16 +2754,16 @@
       "display_last_sale_price": null,
       "display_lead_status": "REVIEW_REQUIRED",
       "display_match_confidence": 0,
-      "display_owner": "TURNER DENNIS",
-      "display_owner_mailing": "9160 HIGHWAY 64, LAKELAND, TN 38002",
-      "display_owner_mailing_address": "9160 HIGHWAY 64",
-      "display_owner_mailing_city": "LAKELAND",
-      "display_owner_mailing_state": "TN",
-      "display_owner_mailing_zip": "38002",
+      "display_owner": "CITIGROUP  MORTGAGE LOAN TRUST2021-RP5",
+      "display_owner_mailing": "8950 CYPRESS WATERS BLVD, COPPELL, TX 75019",
+      "display_owner_mailing_address": "8950 CYPRESS WATERS BLVD",
+      "display_owner_mailing_city": "COPPELL",
+      "display_owner_mailing_state": "TX",
+      "display_owner_mailing_zip": "75019",
       "display_owner_type": "INDIVIDUAL",
       "display_pattern_set": [],
       "display_patterns": [],
-      "display_score": 3,
+      "display_score": 5,
       "display_tier": "Archive",
       "display_title_complexity_tier": "None",
       "display_year_built": null,
@@ -2772,11 +2781,11 @@
       ],
       "score_reasons": [
         {
-          "delta": 3,
+          "delta": 5,
           "factor": "attribute_bonus"
         }
       ],
-      "scored_lead_id": "scored_5a38b2923011a23f",
+      "scored_lead_id": "scored_7f0a2bf42833b4ac",
       "stack_contrib_patterns": [],
       "stack_depth": 0
     },
@@ -3208,8 +3217,7 @@
       "display_address_zip": "38119",
       "display_assessed_value": null,
       "display_attributes": [
-        "absentee",
-        "entity_owned"
+        "absentee"
       ],
       "display_deal_path_details": [],
       "display_deal_paths": [],
@@ -3222,16 +3230,16 @@
       "display_last_sale_price": null,
       "display_lead_status": "REVIEW_REQUIRED",
       "display_match_confidence": 0,
-      "display_owner": "FAMILY CAPABLE CONSTRUCTION &",
+      "display_owner": "SLOCUM FAMILY TRUST 2017",
       "display_owner_mailing": "130 HOWARD DR, MOSCOW, TN 38057",
       "display_owner_mailing_address": "130 HOWARD DR",
       "display_owner_mailing_city": "MOSCOW",
       "display_owner_mailing_state": "TN",
       "display_owner_mailing_zip": "38057",
-      "display_owner_type": "INDIVIDUAL",
+      "display_owner_type": "TRUST",
       "display_pattern_set": [],
       "display_patterns": [],
-      "display_score": 5,
+      "display_score": 3,
       "display_tier": "Archive",
       "display_title_complexity_tier": "None",
       "display_year_built": null,
@@ -3249,11 +3257,11 @@
       ],
       "score_reasons": [
         {
-          "delta": 5,
+          "delta": 3,
           "factor": "attribute_bonus"
         }
       ],
-      "scored_lead_id": "scored_b671390bd3d4ca46",
+      "scored_lead_id": "scored_7e27269b76b12629",
       "stack_contrib_patterns": [],
       "stack_depth": 0
     },
@@ -4859,7 +4867,7 @@
       "display_last_sale_price": null,
       "display_lead_status": "APPROVED_FOR_DASHBOARD",
       "display_match_confidence": 0,
-      "display_owner": "BRIDGES, JULIA",
+      "display_owner": "JULIA BRIDGES",
       "display_owner_mailing": "2980 CROWELL ST, BARTLETT, TN 38133",
       "display_owner_mailing_address": "2980 CROWELL ST",
       "display_owner_mailing_city": "BARTLETT",
@@ -5179,62 +5187,6 @@
         "estate"
       ],
       "stack_depth": 1
-    },
-    {
-      "display_address": "6141 MUDVILLE RD, UNINCORPORATED, TN",
-      "display_address_city": "UNINCORPORATED",
-      "display_address_state": "TN",
-      "display_address_street": "6141 MUDVILLE RD",
-      "display_address_zip": "38053",
-      "display_assessed_value": null,
-      "display_attributes": [
-        "absentee"
-      ],
-      "display_deal_path_details": [],
-      "display_deal_paths": [],
-      "display_doc_types": [
-        "sub_trustees_deed"
-      ],
-      "display_is_absentee_owner": null,
-      "display_is_out_of_state_owner": null,
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "REVIEW_REQUIRED",
-      "display_match_confidence": 0,
-      "display_owner": "MCCLAIN HANNAH M",
-      "display_owner_mailing": "6141 MUDVILLE RD, MILLINGTON, TN 38053",
-      "display_owner_mailing_address": "6141 MUDVILLE RD",
-      "display_owner_mailing_city": "MILLINGTON",
-      "display_owner_mailing_state": "TN",
-      "display_owner_mailing_zip": "38053",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [],
-      "display_patterns": [],
-      "display_score": 3,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "display_years_tax_delinquent": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_D0106   00182",
-      "primary_event_date": "11/04/2026",
-      "primary_parcel_id": "D0106   00182",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26096638"
-      ],
-      "review_flags": [
-        "no_pattern_fired"
-      ],
-      "score_reasons": [
-        {
-          "delta": 3,
-          "factor": "attribute_bonus"
-        }
-      ],
-      "scored_lead_id": "scored_f1c0293defc921cc",
-      "stack_contrib_patterns": [],
-      "stack_depth": 0
     },
     {
       "display_address": "7601 BLUFF RD, UNINCORPORATED, TN",
@@ -6834,7 +6786,8 @@
       "display_address_zip": "38053",
       "display_assessed_value": null,
       "display_attributes": [
-        "absentee"
+        "absentee",
+        "entity_owned"
       ],
       "display_deal_path_details": [],
       "display_deal_paths": [],
@@ -6847,16 +6800,16 @@
       "display_last_sale_price": null,
       "display_lead_status": "REVIEW_REQUIRED",
       "display_match_confidence": 0,
-      "display_owner": "POOLE JERRY W",
-      "display_owner_mailing": "4862 SARATOGA RD, MILLINGTON, TN 38053",
-      "display_owner_mailing_address": "4862 SARATOGA RD",
-      "display_owner_mailing_city": "MILLINGTON",
+      "display_owner": "MHV1 LLC",
+      "display_owner_mailing": "6225 QUINTARD ST, ARLINGTON, TN 38002",
+      "display_owner_mailing_address": "6225 QUINTARD ST",
+      "display_owner_mailing_city": "ARLINGTON",
       "display_owner_mailing_state": "TN",
-      "display_owner_mailing_zip": "38053",
-      "display_owner_type": "INDIVIDUAL",
+      "display_owner_mailing_zip": "38002",
+      "display_owner_type": "ENTITY",
       "display_pattern_set": [],
       "display_patterns": [],
-      "display_score": 3,
+      "display_score": 5,
       "display_tier": "Archive",
       "display_title_complexity_tier": "None",
       "display_year_built": null,
@@ -6874,60 +6827,11 @@
       ],
       "score_reasons": [
         {
-          "delta": 3,
+          "delta": 5,
           "factor": "attribute_bonus"
         }
       ],
-      "scored_lead_id": "scored_f6f5d20458736ea4",
-      "stack_contrib_patterns": [],
-      "stack_depth": 0
-    },
-    {
-      "display_address": "7798 TRADING POST LN, MILLINGTON, TN",
-      "display_address_city": "MILLINGTON",
-      "display_address_state": "TN",
-      "display_address_street": "7798 TRADING POST LN",
-      "display_address_zip": "38053",
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [],
-      "display_deal_paths": [],
-      "display_doc_types": [
-        "sub_trustees_deed"
-      ],
-      "display_is_absentee_owner": null,
-      "display_is_out_of_state_owner": null,
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "REVIEW_REQUIRED",
-      "display_match_confidence": 0,
-      "display_owner": "ANDERSON EMANUEL & DEVON HAMMONS",
-      "display_owner_mailing": "7798 TRADING POST LN, MILLINGTON, TN 38053",
-      "display_owner_mailing_address": "7798 TRADING POST LN",
-      "display_owner_mailing_city": "MILLINGTON",
-      "display_owner_mailing_state": "TN",
-      "display_owner_mailing_zip": "38053",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [],
-      "display_patterns": [],
-      "display_score": 0,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "display_years_tax_delinquent": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_M0115J B00163",
-      "primary_event_date": "11/06/2026",
-      "primary_parcel_id": "M0115J B00163",
-      "primary_source_urls": [
-        "https://search.register.shelby.tn.us/search/content.php?inst_num=26097261"
-      ],
-      "review_flags": [
-        "no_pattern_fired"
-      ],
-      "score_reasons": [],
-      "scored_lead_id": "scored_c83b5fcaa0f9193f",
+      "scored_lead_id": "scored_56455be91d66526b",
       "stack_contrib_patterns": [],
       "stack_depth": 0
     },
@@ -10736,6 +10640,58 @@
       "stack_depth": 1
     },
     {
+      "display_address": "6141 MUDVILLE RD MILLINGTON, TN 38053",
+      "display_address_city": null,
+      "display_address_source": "posting",
+      "display_address_state": null,
+      "display_address_street": null,
+      "display_address_zip": null,
+      "display_assessed_value": null,
+      "display_attributes": [],
+      "display_deal_path_details": [],
+      "display_deal_paths": [],
+      "display_doc_types": [
+        "sub_trustees_deed"
+      ],
+      "display_is_absentee_owner": null,
+      "display_is_out_of_state_owner": null,
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_match_confidence": 0,
+      "display_owner": "sub_trustees_deed against unidentified party",
+      "display_owner_mailing": "",
+      "display_owner_mailing_address": null,
+      "display_owner_mailing_city": null,
+      "display_owner_mailing_state": null,
+      "display_owner_mailing_zip": null,
+      "display_owner_type": "UNKNOWN",
+      "display_pattern_set": [],
+      "display_patterns": [],
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "display_years_tax_delinquent": null,
+      "enrichment_status": "UNENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_unresolved_26096638",
+      "primary_event_date": "11/04/2026",
+      "primary_parcel_id": null,
+      "primary_source_urls": [
+        "https://search.register.shelby.tn.us/search/content.php?inst_num=26096638"
+      ],
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:known_filer_pattern match: mortgage_lender:MORTGAGE COMPANY",
+        "no_pattern_fired"
+      ],
+      "score_reasons": [],
+      "scored_lead_id": "scored_68d6c09c89a46fd4",
+      "stack_contrib_patterns": [],
+      "stack_depth": 0
+    },
+    {
       "display_address": "",
       "display_address_city": null,
       "display_address_state": null,
@@ -11191,6 +11147,56 @@
         "foreclosure"
       ],
       "stack_depth": 1
+    },
+    {
+      "display_address": "7798 TRADING POST LN MILLINGTON, TN 38053",
+      "display_address_city": null,
+      "display_address_source": "posting",
+      "display_address_state": null,
+      "display_address_street": null,
+      "display_address_zip": null,
+      "display_assessed_value": null,
+      "display_attributes": [],
+      "display_deal_path_details": [],
+      "display_deal_paths": [],
+      "display_doc_types": [
+        "sub_trustees_deed"
+      ],
+      "display_is_absentee_owner": null,
+      "display_is_out_of_state_owner": null,
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_match_confidence": 0,
+      "display_owner": "MACKIE WOLF ZIENTZ AND MANN PC S TR",
+      "display_owner_mailing": "",
+      "display_owner_mailing_address": null,
+      "display_owner_mailing_city": null,
+      "display_owner_mailing_state": null,
+      "display_owner_mailing_zip": null,
+      "display_owner_type": "ENTITY",
+      "display_pattern_set": [],
+      "display_patterns": [],
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "display_years_tax_delinquent": null,
+      "enrichment_status": "UNENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_unresolved_26097261",
+      "primary_event_date": "11/06/2026",
+      "primary_parcel_id": null,
+      "primary_source_urls": [
+        "https://search.register.shelby.tn.us/search/content.php?inst_num=26097261"
+      ],
+      "review_flags": [
+        "no_pattern_fired"
+      ],
+      "score_reasons": [],
+      "scored_lead_id": "scored_1d6a25e40cf58ccc",
+      "stack_contrib_patterns": [],
+      "stack_depth": 0
     },
     {
       "display_address": "",
@@ -13054,13 +13060,13 @@
       "display_last_sale_price": null,
       "display_lead_status": "REVIEW_REQUIRED",
       "display_match_confidence": 0,
-      "display_owner": "ALLSTATE INSURANCE COMPANY",
+      "display_owner": "FEDTRUST",
       "display_owner_mailing": "",
       "display_owner_mailing_address": null,
       "display_owner_mailing_city": null,
       "display_owner_mailing_state": null,
       "display_owner_mailing_zip": null,
-      "display_owner_type": "ENTITY",
+      "display_owner_type": "INDIVIDUAL",
       "display_pattern_set": [
         "lis_pendens"
       ],
@@ -13081,7 +13087,7 @@
         "https://chancerydata.shelbycountytn.gov/chweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=CH-26-1538&begin_date=&end_date="
       ],
       "review_flags": [
-        "lis_pendens_commercial"
+        "lis_pendens_review"
       ],
       "score_reasons": [
         {
@@ -14279,7 +14285,7 @@
         "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR037250&begin_date=&end_date="
       ],
       "review_flags": [
-        "parcel_match_lookup_error"
+        "parcel_match_low_confidence"
       ],
       "score_reasons": [
         {
@@ -14789,18 +14795,89 @@
         "estate"
       ],
       "stack_depth": 1
+    },
+    {
+      "contact_info": {
+        "executor_name": "WATKINS, III, WILLIAM HOWARD"
+      },
+      "display_address": "",
+      "display_address_city": null,
+      "display_address_state": null,
+      "display_address_street": null,
+      "display_address_zip": null,
+      "display_assessed_value": null,
+      "display_attributes": [],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_doc_types": [
+        "letters_testamentary"
+      ],
+      "display_is_absentee_owner": null,
+      "display_is_out_of_state_owner": null,
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "WILLIAM HOWARD WATKINS, JR",
+      "display_owner_mailing": "",
+      "display_owner_mailing_address": null,
+      "display_owner_mailing_city": null,
+      "display_owner_mailing_state": null,
+      "display_owner_mailing_zip": null,
+      "display_owner_type": "INDIVIDUAL",
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_patterns": [
+        "estate"
+      ],
+      "display_score": 55,
+      "display_tier": "Workable",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "display_years_tax_delinquent": null,
+      "enrichment_status": "UNENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_unresolved_shelby_pr_PR037274",
+      "primary_event_date": "11-NOV-2026",
+      "primary_parcel_id": null,
+      "primary_source_urls": [
+        "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR037274&begin_date=&end_date="
+      ],
+      "review_flags": [
+        "parcel_match_ambiguous_common_name"
+      ],
+      "score_reasons": [
+        {
+          "delta": 55,
+          "factor": "base_LETTERS_TESTAMENTARY"
+        }
+      ],
+      "scored_lead_id": "scored_657a8c5c105bb714",
+      "stack_contrib_patterns": [
+        "estate"
+      ],
+      "stack_depth": 1
     }
   ],
   "score_tier_distribution": {
     "Archive": 110,
     "Low": 24,
     "Strong": 1,
-    "Workable": 89
+    "Workable": 90
   },
   "semantic_verdict": "NEEDS_OPERATOR_REVIEW",
   "stack_depth_distribution": {
     "0": 29,
-    "1": 191,
+    "1": 192,
     "2": 4
   },
   "state": "TN"

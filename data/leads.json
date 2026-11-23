@@ -1,24 +1,24 @@
 {
   "attribute_counts": {
-    "absentee": 8,
-    "entity_owned": 2,
-    "out_of_state": 4
+    "absentee": 7,
+    "entity_owned": 1,
+    "out_of_state": 3
   },
   "build_label": "PARTIAL_BUILD",
   "county": "Shelby County",
   "deal_path_distribution": {
     "messy_title": 1,
-    "wholesale": 46
+    "wholesale": 44
   },
   "enrichment_breakdown": {
-    "ENRICHED": 21,
-    "UNENRICHED": 25
+    "ENRICHED": 17,
+    "UNENRICHED": 27
   },
-  "generated_at": "2026-11-22T16:40:51Z",
-  "lead_total": 46,
+  "generated_at": "2026-11-23T18:10:20Z",
+  "lead_total": 44,
   "mode": "production",
   "pattern_counts": {
-    "estate": 38,
+    "estate": 36,
     "eviction": 7,
     "title_issue": 1
   },
@@ -666,80 +666,6 @@
       "stack_depth": 1
     },
     {
-      "display_address": "3236 MILLINGTON ST, MEMPHIS, TN",
-      "display_address_city": "MEMPHIS",
-      "display_address_state": "TN",
-      "display_address_street": "3236 MILLINGTON ST",
-      "display_address_zip": "38127",
-      "display_assessed_value": null,
-      "display_attributes": [
-        "absentee",
-        "entity_owned",
-        "out_of_state"
-      ],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_doc_types": [
-        "eviction_filing"
-      ],
-      "display_is_absentee_owner": true,
-      "display_is_out_of_state_owner": true,
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "URBAN BAYOU APARTMENTS",
-      "display_owner_mailing": "2857 ATHERTON DR, ORLANDO, FL 32824",
-      "display_owner_mailing_address": "2857 ATHERTON DR",
-      "display_owner_mailing_city": "ORLANDO",
-      "display_owner_mailing_state": "FL",
-      "display_owner_mailing_zip": "32824",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "eviction"
-      ],
-      "display_patterns": [
-        "eviction"
-      ],
-      "display_score": 27,
-      "display_tier": "Archive",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "display_years_tax_delinquent": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_069033  00014C",
-      "primary_event_date": "20-NOV-2026",
-      "primary_parcel_id": "069033  00014C",
-      "primary_source_urls": [
-        "https://gscivildata.shelbycountytn.gov/pls/gnweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=2421290&begin_date=&end_date="
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 20,
-          "factor": "base_EVICTION_FILING"
-        },
-        {
-          "delta": 7,
-          "factor": "attribute_bonus"
-        }
-      ],
-      "scored_lead_id": "scored_87c134ee165fb338",
-      "stack_contrib_patterns": [
-        "eviction"
-      ],
-      "stack_depth": 1
-    },
-    {
       "contact_info": {
         "executor_name": "CASH, TYNESHA"
       },
@@ -803,75 +729,6 @@
         }
       ],
       "scored_lead_id": "scored_e457d04dae2e54e8",
-      "stack_contrib_patterns": [
-        "estate"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "contact_info": {
-        "executor_name": "HARPER, SCOTT CRAIG"
-      },
-      "display_address": "3152 DOTHAN ST, MEMPHIS, TN",
-      "display_address_city": "MEMPHIS",
-      "display_address_state": "TN",
-      "display_address_street": "3152 DOTHAN ST",
-      "display_address_zip": "38118",
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_doc_types": [
-        "letters_testamentary"
-      ],
-      "display_is_absentee_owner": false,
-      "display_is_out_of_state_owner": false,
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "HARPER, PAULA DIANE",
-      "display_owner_mailing": "3152 DOTHAN ST, MEMPHIS, TN 38118",
-      "display_owner_mailing_address": "3152 DOTHAN ST",
-      "display_owner_mailing_city": "MEMPHIS",
-      "display_owner_mailing_state": "TN",
-      "display_owner_mailing_zip": "38118",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "estate"
-      ],
-      "display_patterns": [
-        "estate"
-      ],
-      "display_score": 55,
-      "display_tier": "Workable",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "display_years_tax_delinquent": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_074072  00036",
-      "primary_event_date": "13-NOV-2026",
-      "primary_parcel_id": "074072  00036",
-      "primary_source_urls": [
-        "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR037307&begin_date=&end_date="
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 55,
-          "factor": "base_LETTERS_TESTAMENTARY"
-        }
-      ],
-      "scored_lead_id": "scored_24ff951c6b54d0b3",
       "stack_contrib_patterns": [
         "estate"
       ],
@@ -1226,75 +1083,6 @@
       "stack_depth": 1
     },
     {
-      "contact_info": {
-        "executor_name": "DUNCAN, STEPHANIE DAWN"
-      },
-      "display_address": "6580 ERNEST CV, MEMPHIS, TN",
-      "display_address_city": "MEMPHIS",
-      "display_address_state": "TN",
-      "display_address_street": "6580 ERNEST CV",
-      "display_address_zip": "38141",
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_doc_types": [
-        "letters_testamentary"
-      ],
-      "display_is_absentee_owner": false,
-      "display_is_out_of_state_owner": false,
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "BETTY  FAYE HICKS",
-      "display_owner_mailing": "6580 ERNEST CV, MEMPHIS, TN 38141",
-      "display_owner_mailing_address": "6580 ERNEST CV",
-      "display_owner_mailing_city": "MEMPHIS",
-      "display_owner_mailing_state": "TN",
-      "display_owner_mailing_zip": "38141",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "estate"
-      ],
-      "display_patterns": [
-        "estate"
-      ],
-      "display_score": 55,
-      "display_tier": "Workable",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "display_years_tax_delinquent": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_093724 H00020",
-      "primary_event_date": "12-NOV-2026",
-      "primary_parcel_id": "093724 H00020",
-      "primary_source_urls": [
-        "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR037284&begin_date=&end_date="
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 55,
-          "factor": "base_LETTERS_TESTAMENTARY"
-        }
-      ],
-      "scored_lead_id": "scored_36e6fec9b6624bef",
-      "stack_contrib_patterns": [
-        "estate"
-      ],
-      "stack_depth": 1
-    },
-    {
       "display_address": "175 WEST, COLLIERVILLE, TN",
       "display_address_city": "COLLIERVILLE",
       "display_address_state": "TN",
@@ -1440,75 +1228,6 @@
       "stack_depth": 1
     },
     {
-      "contact_info": {
-        "executor_name": "BUCKNER, THOMAS R."
-      },
-      "display_address": "8060 FARMINGTON BLVD, GERMANTOWN, TN",
-      "display_address_city": "GERMANTOWN",
-      "display_address_state": "TN",
-      "display_address_street": "8060 FARMINGTON BLVD",
-      "display_address_zip": "38138",
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_doc_types": [
-        "letters_testamentary"
-      ],
-      "display_is_absentee_owner": false,
-      "display_is_out_of_state_owner": false,
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "JOHN H. KIER, III",
-      "display_owner_mailing": "8060 FARMINGTON BLVD, GERMANTOWN, TN 38138",
-      "display_owner_mailing_address": "8060 FARMINGTON BLVD",
-      "display_owner_mailing_city": "GERMANTOWN",
-      "display_owner_mailing_state": "TN",
-      "display_owner_mailing_zip": "38138",
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "estate"
-      ],
-      "display_patterns": [
-        "estate"
-      ],
-      "display_score": 55,
-      "display_tier": "Workable",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "display_years_tax_delinquent": null,
-      "enrichment_status": "ENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_parcel_G0220D A00020",
-      "primary_event_date": "12-NOV-2026",
-      "primary_parcel_id": "G0220D A00020",
-      "primary_source_urls": [
-        "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR037287&begin_date=&end_date="
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        {
-          "delta": 55,
-          "factor": "base_LETTERS_TESTAMENTARY"
-        }
-      ],
-      "scored_lead_id": "scored_11c7df4ddab85bcc",
-      "stack_contrib_patterns": [
-        "estate"
-      ],
-      "stack_depth": 1
-    },
-    {
       "display_address": "",
       "display_address_city": null,
       "display_address_state": null,
@@ -1648,11 +1367,9 @@
       "stack_depth": 1
     },
     {
-      "contact_info": {
-        "executor_name": "COPOUS, JOY KATHERINE"
-      },
-      "display_address": "",
+      "display_address": "3236 MILLINGTON RD #2 Memphis TN 38127",
       "display_address_city": null,
+      "display_address_source": "posting",
       "display_address_state": null,
       "display_address_street": null,
       "display_address_zip": null,
@@ -1669,7 +1386,7 @@
         "wholesale"
       ],
       "display_doc_types": [
-        "letters_testamentary"
+        "eviction_filing"
       ],
       "display_is_absentee_owner": null,
       "display_is_out_of_state_owner": null,
@@ -1677,7 +1394,7 @@
       "display_last_sale_price": null,
       "display_lead_status": "APPROVED_FOR_DASHBOARD",
       "display_match_confidence": 0,
-      "display_owner": "ZOE LANIER JACKSON",
+      "display_owner": "URBAN BAYOU APARTMENTS",
       "display_owner_mailing": "",
       "display_owner_mailing_address": null,
       "display_owner_mailing_city": null,
@@ -1685,107 +1402,34 @@
       "display_owner_mailing_zip": null,
       "display_owner_type": "INDIVIDUAL",
       "display_pattern_set": [
-        "estate"
+        "eviction"
       ],
       "display_patterns": [
-        "estate"
+        "eviction"
       ],
-      "display_score": 55,
-      "display_tier": "Workable",
+      "display_score": 20,
+      "display_tier": "Archive",
       "display_title_complexity_tier": "None",
       "display_year_built": null,
       "display_years_tax_delinquent": null,
       "enrichment_status": "UNENRICHED",
       "evidence_ids": [],
-      "lead_id": "lead_unresolved_shelby_pr_PR037285",
-      "primary_event_date": "12-NOV-2026",
+      "lead_id": "lead_unresolved_shelby_gs_2421290",
+      "primary_event_date": "20-NOV-2026",
       "primary_parcel_id": null,
       "primary_source_urls": [
-        "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR037285&begin_date=&end_date="
+        "https://gscivildata.shelbycountytn.gov/pls/gnweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=2421290&begin_date=&end_date="
       ],
-      "review_flags": [
-        "parcel_match_low_confidence"
-      ],
+      "review_flags": [],
       "score_reasons": [
         {
-          "delta": 55,
-          "factor": "base_LETTERS_TESTAMENTARY"
+          "delta": 20,
+          "factor": "base_EVICTION_FILING"
         }
       ],
-      "scored_lead_id": "scored_29936a5e5bb9ce1e",
+      "scored_lead_id": "scored_02ae82b4e8bf9d88",
       "stack_contrib_patterns": [
-        "estate"
-      ],
-      "stack_depth": 1
-    },
-    {
-      "contact_info": {
-        "executor_name": "HARRIS, SHAWNTAY"
-      },
-      "display_address": "",
-      "display_address_city": null,
-      "display_address_state": null,
-      "display_address_street": null,
-      "display_address_zip": null,
-      "display_assessed_value": null,
-      "display_attributes": [],
-      "display_deal_path_details": [
-        {
-          "confidence": "moderate",
-          "path": "wholesale",
-          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
-        }
-      ],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_doc_types": [
-        "letters_testamentary"
-      ],
-      "display_is_absentee_owner": null,
-      "display_is_out_of_state_owner": null,
-      "display_last_sale_date": null,
-      "display_last_sale_price": null,
-      "display_lead_status": "APPROVED_FOR_DASHBOARD",
-      "display_match_confidence": 0,
-      "display_owner": "ESTHER HOLLOWAY",
-      "display_owner_mailing": "",
-      "display_owner_mailing_address": null,
-      "display_owner_mailing_city": null,
-      "display_owner_mailing_state": null,
-      "display_owner_mailing_zip": null,
-      "display_owner_type": "INDIVIDUAL",
-      "display_pattern_set": [
-        "estate"
-      ],
-      "display_patterns": [
-        "estate"
-      ],
-      "display_score": 55,
-      "display_tier": "Workable",
-      "display_title_complexity_tier": "None",
-      "display_year_built": null,
-      "display_years_tax_delinquent": null,
-      "enrichment_status": "UNENRICHED",
-      "evidence_ids": [],
-      "lead_id": "lead_unresolved_shelby_pr_PR037286",
-      "primary_event_date": "12-NOV-2026",
-      "primary_parcel_id": null,
-      "primary_source_urls": [
-        "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR037286&begin_date=&end_date="
-      ],
-      "review_flags": [
-        "parcel_match_low_confidence"
-      ],
-      "score_reasons": [
-        {
-          "delta": 55,
-          "factor": "base_LETTERS_TESTAMENTARY"
-        }
-      ],
-      "scored_lead_id": "scored_cd5bf4d573af5909",
-      "stack_contrib_patterns": [
-        "estate"
+        "eviction"
       ],
       "stack_depth": 1
     },
@@ -1846,7 +1490,7 @@
         "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR037293&begin_date=&end_date="
       ],
       "review_flags": [
-        "parcel_match_low_confidence"
+        "parcel_match_lookup_error"
       ],
       "score_reasons": [
         {
@@ -1917,7 +1561,7 @@
         "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR037294&begin_date=&end_date="
       ],
       "review_flags": [
-        "parcel_match_low_confidence"
+        "parcel_match_lookup_error"
       ],
       "score_reasons": [
         {
@@ -2059,7 +1703,7 @@
         "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR037303&begin_date=&end_date="
       ],
       "review_flags": [
-        "parcel_match_low_confidence"
+        "parcel_match_lookup_error"
       ],
       "score_reasons": [
         {
@@ -2068,6 +1712,77 @@
         }
       ],
       "scored_lead_id": "scored_d3c7fe1be555cc4d",
+      "stack_contrib_patterns": [
+        "estate"
+      ],
+      "stack_depth": 1
+    },
+    {
+      "contact_info": {
+        "executor_name": "HARPER, SCOTT CRAIG"
+      },
+      "display_address": "",
+      "display_address_city": null,
+      "display_address_state": null,
+      "display_address_street": null,
+      "display_address_zip": null,
+      "display_assessed_value": null,
+      "display_attributes": [],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_doc_types": [
+        "letters_testamentary"
+      ],
+      "display_is_absentee_owner": null,
+      "display_is_out_of_state_owner": null,
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "HARPER, PAULA DIANE",
+      "display_owner_mailing": "",
+      "display_owner_mailing_address": null,
+      "display_owner_mailing_city": null,
+      "display_owner_mailing_state": null,
+      "display_owner_mailing_zip": null,
+      "display_owner_type": "INDIVIDUAL",
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_patterns": [
+        "estate"
+      ],
+      "display_score": 55,
+      "display_tier": "Workable",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "display_years_tax_delinquent": null,
+      "enrichment_status": "UNENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_unresolved_shelby_pr_PR037307",
+      "primary_event_date": "13-NOV-2026",
+      "primary_parcel_id": null,
+      "primary_source_urls": [
+        "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR037307&begin_date=&end_date="
+      ],
+      "review_flags": [
+        "parcel_match_lookup_error"
+      ],
+      "score_reasons": [
+        {
+          "delta": 55,
+          "factor": "base_LETTERS_TESTAMENTARY"
+        }
+      ],
+      "scored_lead_id": "scored_aeebae84f62b162b",
       "stack_contrib_patterns": [
         "estate"
       ],
@@ -2485,7 +2200,7 @@
         "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR037336&begin_date=&end_date="
       ],
       "review_flags": [
-        "parcel_match_low_confidence"
+        "parcel_match_lookup_error"
       ],
       "score_reasons": [
         {
@@ -2840,7 +2555,7 @@
         "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR037351&begin_date=&end_date="
       ],
       "review_flags": [
-        "parcel_match_low_confidence"
+        "parcel_match_lookup_error"
       ],
       "score_reasons": [
         {
@@ -2982,7 +2697,7 @@
         "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR037353&begin_date=&end_date="
       ],
       "review_flags": [
-        "parcel_match_ambiguous_common_name"
+        "parcel_match_lookup_error"
       ],
       "score_reasons": [
         {
@@ -3279,15 +2994,157 @@
         "estate"
       ],
       "stack_depth": 1
+    },
+    {
+      "contact_info": {
+        "executor_name": "YOUNG, MATTHEW"
+      },
+      "display_address": "",
+      "display_address_city": null,
+      "display_address_state": null,
+      "display_address_street": null,
+      "display_address_zip": null,
+      "display_assessed_value": null,
+      "display_attributes": [],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_doc_types": [
+        "letters_testamentary"
+      ],
+      "display_is_absentee_owner": null,
+      "display_is_out_of_state_owner": null,
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "JEROLD WAYNE YOUNG",
+      "display_owner_mailing": "",
+      "display_owner_mailing_address": null,
+      "display_owner_mailing_city": null,
+      "display_owner_mailing_state": null,
+      "display_owner_mailing_zip": null,
+      "display_owner_type": "INDIVIDUAL",
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_patterns": [
+        "estate"
+      ],
+      "display_score": 55,
+      "display_tier": "Workable",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "display_years_tax_delinquent": null,
+      "enrichment_status": "UNENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_unresolved_shelby_pr_PR037369",
+      "primary_event_date": "23-NOV-2026",
+      "primary_parcel_id": null,
+      "primary_source_urls": [
+        "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR037369&begin_date=&end_date="
+      ],
+      "review_flags": [
+        "parcel_match_low_confidence"
+      ],
+      "score_reasons": [
+        {
+          "delta": 55,
+          "factor": "base_LETTERS_TESTAMENTARY"
+        }
+      ],
+      "scored_lead_id": "scored_b93e99b39044f373",
+      "stack_contrib_patterns": [
+        "estate"
+      ],
+      "stack_depth": 1
+    },
+    {
+      "contact_info": {
+        "executor_name": "BILLINGS, DAWN M"
+      },
+      "display_address": "",
+      "display_address_city": null,
+      "display_address_state": null,
+      "display_address_street": null,
+      "display_address_zip": null,
+      "display_assessed_value": null,
+      "display_attributes": [],
+      "display_deal_path_details": [
+        {
+          "confidence": "moderate",
+          "path": "wholesale",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_doc_types": [
+        "letters_testamentary"
+      ],
+      "display_is_absentee_owner": null,
+      "display_is_out_of_state_owner": null,
+      "display_last_sale_date": null,
+      "display_last_sale_price": null,
+      "display_lead_status": "APPROVED_FOR_DASHBOARD",
+      "display_match_confidence": 0,
+      "display_owner": "MATIAS T. FALCASANTOS",
+      "display_owner_mailing": "",
+      "display_owner_mailing_address": null,
+      "display_owner_mailing_city": null,
+      "display_owner_mailing_state": null,
+      "display_owner_mailing_zip": null,
+      "display_owner_type": "INDIVIDUAL",
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_patterns": [
+        "estate"
+      ],
+      "display_score": 55,
+      "display_tier": "Workable",
+      "display_title_complexity_tier": "None",
+      "display_year_built": null,
+      "display_years_tax_delinquent": null,
+      "enrichment_status": "UNENRICHED",
+      "evidence_ids": [],
+      "lead_id": "lead_unresolved_shelby_pr_PR037376",
+      "primary_event_date": "23-NOV-2026",
+      "primary_parcel_id": null,
+      "primary_source_urls": [
+        "https://prdata.shelbycountytn.gov/prweb/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=PR037376&begin_date=&end_date="
+      ],
+      "review_flags": [
+        "parcel_match_lookup_error"
+      ],
+      "score_reasons": [
+        {
+          "delta": 55,
+          "factor": "base_LETTERS_TESTAMENTARY"
+        }
+      ],
+      "scored_lead_id": "scored_50bee302d8c84c93",
+      "stack_contrib_patterns": [
+        "estate"
+      ],
+      "stack_depth": 1
     }
   ],
   "score_tier_distribution": {
     "Archive": 7,
-    "Workable": 39
+    "Workable": 37
   },
   "semantic_verdict": "NEEDS_OPERATOR_REVIEW",
   "stack_depth_distribution": {
-    "1": 46
+    "1": 44
   },
   "state": "TN"
 }
